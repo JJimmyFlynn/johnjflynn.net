@@ -1,0 +1,17 @@
+//--------------------------------------------------------------
+// Home Hero Styles
+//--------------------------------------------------------------
+.m-home-hero {
+  display: flex;
+  padding-top: $gutter;
+  background-color: $color-teal;
+}
+
+.m-home-hero__block {
+  flex: 1 50%;
+}
+
+.m-home-hero__mountains {
+  width: 100%;
+  height: auto;
+}

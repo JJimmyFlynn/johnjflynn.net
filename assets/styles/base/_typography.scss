@@ -1,0 +1,59 @@
+// Contains Typographic Styles for JohnJFlynn.net
+// Author: John Flynn
+// Table of Contents:
+// I.   Fonts Base
+// II.  Heading Sizes
+// III. Paragraph Base
+
+
+//-----------------------------------------
+// Font Base
+//-----------------------------------------
+body {
+  color: $color-black;
+  font-size: $font-size-body;
+  font-family: $font-family-body;
+
+  text-rendering: optimizeLegibility;
+}
+
+body,
+input,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  line-height: $line-height;
+}
+
+//-----------------------------------------
+// Headings
+//-----------------------------------------
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: $font-weight-heading;
+  font-family: $font-family-heading;
+}
+
+//-----------------------------------------
+// Output heading sizes based off heading 
+// size map in typograhpy settings
+//-----------------------------------------
+@each $heading, $value in $heading-sizes {
+  #{$heading}, .#{$heading} {
+    font-size: #{$value};
+  }
+}
+
+//-----------------------------------------
+// Paragraphs
+//-----------------------------------------
+p {
+  line-height: $line-height;
+}

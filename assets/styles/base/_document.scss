@@ -1,0 +1,54 @@
+// Contains Base Level Styles for JohnJFlynn.net
+// Author: John Flynn
+// Table of Contents:
+// I. HTML and Box Sizing
+// II. Images
+// III. Lists
+
+//-----------------------------------------
+// Base HTML Styles
+//-----------------------------------------
+html {
+  min-height: 100%;
+  font-size: 10px; // Easier REM values
+
+  text-size-adjust: 100%;
+}
+
+//-----------------------------------------
+// Base Body Styles
+//-----------------------------------------
+body {
+  background-color: $color-grey;
+}
+
+//-----------------------------------------
+// Box Sizing
+//-----------------------------------------
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//-----------------------------------------
+// Images
+//-----------------------------------------
+img {
+  max-width: 100%;
+  vertical-align: middle; //Setting `vertical-align` removes the whitespace that appears under `img`
+  font-style: italic; //Offset `alt` text from surrounding copy
+}
+
+//-----------------------------------------
+// Lists
+//-----------------------------------------
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0; // Remove extra vertical spacing when nesting lists.
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% block head %}
+      {% include 'partials/head.twig' %}
+    {% endblock %}
+  </head>
+
+  <body data-source="base.twig">
+
+    <header class="m-site-header" role="banner">
+      {% block header %}
+        {% include 'partials/header.twig' %}
+      {% endblock %}
+    </header>
+
+    <main role="main" class="main">
+      {% block content %}
+      {% endblock %}
+    </main>
+
+    <footer class="m-site-footer" role="contentinfo">
+      {% block footer %}
+        {% include 'partials/footer.twig' %}
+      {% endblock %}
+    </footer>
+
+  </body>
+
+</html>

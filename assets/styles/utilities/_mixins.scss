@@ -1,0 +1,81 @@
+// Mixins for use on JohnJFlynn.net
+// Author: John Flynn
+// Table of Contents:
+// I.   Clearfix
+// II.  Breakpoints
+// III. Helpers
+
+
+//-----------------------------------------
+// Trusty Clearfix
+//-----------------------------------------
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+//-----------------------------------------
+// Breakpoints
+//-----------------------------------------
+@mixin breakpoint($criteria) {
+  @media screen and ($criteria) { @content; }
+}
+
+//-----------------------------------------
+// Helpers
+//-----------------------------------------
+@mixin strip-list() {
+  list-style: none;
+  padding-left: 0;
+}
+
+@mixin visually-hidden() {
+  // sass-lint:disable no-important
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+@mixin visually-shown($position: inherit) {
+  // sass-lint:disable no-important
+  position: $position !important;
+  overflow: auto;
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+@mixin placeholder() {
+  ::placeholder {
+    @content;
+  }
+  :placeholder {
+    @content;
+  }
+  /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    @content;
+  }
+  /* Firefox 19+ */
+  ::-moz-placeholder {
+    @content;
+  }
+  /* IE 10+ */
+  :-ms-input-placeholder {
+    @content;
+  }
+  /* Firefox 18- */
+  :-moz-placeholder {
+    @content;
+  }
+}
+

@@ -1,0 +1,27 @@
+// Contains Site-Wide Header Styles for JohnJFlynn.net
+// Author: John Flynn
+
+//-----------------------------------------
+// General Header Styles
+//-----------------------------------------
+.m-site-header {
+  display: flex;
+}
+
+.m-site-header__block {
+  flex: 1 50%;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.m-site-header__left {
+  font-weight: $font-weight-bold;
+}
+
+//-----------------------------------------
+// Right Side Block
+//-----------------------------------------
+.m-site-header__right {
+  background-color: $color-black;
+}

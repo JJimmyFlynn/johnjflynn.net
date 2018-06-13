@@ -19,8 +19,10 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "^3.0.0",
-    "vlucas/phpdotenv": "^2.4.0"
+    "craftcms/cms": "3.0.10.2",
+    "vlucas/phpdotenv": "^2.4.0",
+    "misterbk/mix": "^1.4",
+    "ether/seo": "v3.2.8"
   },
   "autoload": {
     "psr-4": {

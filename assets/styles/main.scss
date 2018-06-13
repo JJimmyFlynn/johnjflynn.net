@@ -1,0 +1,35 @@
+//--------------------------------------------------------------
+// Main Sass file for JohnJFlynn.net
+// Author: John Flynn
+// 
+// Only imports here
+//--------------------------------------------------------------
+
+//----------Vendor Styles
+@import 'vendor/normalize';
+
+//----------Settings
+@import 'settings/fonts';
+@import 'settings/colors';
+@import 'settings/breakpoints';
+@import 'settings/spacing';
+@import 'settings/z-index';
+
+//----------Utilities
+@import 'utilities/mixins';
+@import 'utilities/accessibility';
+@import 'utilities/lists';
+
+//----------Base Styles
+@import 'base/document';
+@import 'base/typography';
+
+//----------Components
+@import 'components/buttons';
+@import 'components/descriptor-list';
+@import 'components/forms';
+
+//----------Modules
+@import 'modules/footer';
+@import 'modules/header';
+@import 'modules/home-hero';

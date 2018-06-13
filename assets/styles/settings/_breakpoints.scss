@@ -1,0 +1,15 @@
+//-----------------------------------------
+// Sizing Settings
+//-----------------------------------------
+$x-small: 20em;      // 320px
+$small  : 34.375em;  // 550px
+$medium : 50em;      // 800px
+$large  : 64em;      // 1024px
+
+//-----------------------------------------
+// Breakpoint Settings
+//-----------------------------------------
+$x-small--up: 'min-width: #{$x-small}';
+$small--up  : 'min-width: #{$small}';
+$medium--up : 'min-width: #{$medium}';
+$large--up  : 'min-width: #{$large}';

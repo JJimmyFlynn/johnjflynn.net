@@ -1,0 +1,23 @@
+//-----------------------------------------
+// Typography Settings
+//-----------------------------------------
+$line-height: 1.3;
+$font-size-body: 2rem;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-family-body: 'effra',sans-serif;
+$font-weight-body: $font-weight-normal;
+
+$font-family-heading: 'effra',sans-serif;
+$font-weight-heading: $font-weight-bold;
+
+$heading-sizes: (
+  h1: 4rem,
+  h2: 3.2rem,
+  h3: 2.8rem,
+  h4: 2.4rem,
+  h5: 2.2rem,
+  h6: 2rem
+);
