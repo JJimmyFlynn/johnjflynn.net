@@ -5,13 +5,63 @@
   display: flex;
   padding-top: $gutter;
   background-color: $color-teal;
+  color: white;
 }
 
+//-----------------------------------------
+// General Blocks
+//-----------------------------------------
 .m-home-hero__block {
   flex: 1 50%;
 }
 
+//-----------------------------------------
+// SVG Mountains
+//-----------------------------------------
 .m-home-hero__mountains {
   width: 100%;
   height: auto;
+}
+
+//-----------------------------------------
+// Content Block
+//-----------------------------------------
+.m-home-hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+//-----------------------------------------
+// My Name....
+//-----------------------------------------
+.m-home-hero__name {
+  margin: 0;
+  font-size: 3.6rem;
+}
+
+//-----------------------------------------
+// Sub Heading
+//-----------------------------------------
+.m-home-hero__sub {
+  margin-bottom: 0.5rem;
+}
+
+//-----------------------------------------
+// Tech List
+//-----------------------------------------
+.m-home-hero__tech-list {
+  display: flex;
+  justify-content: center;
+  color: $color-red;
+  font-size: 1.6rem;
+}
+
+.m-home-hero__tech-list-item {
+  margin-right: 1rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 }

@@ -30,7 +30,7 @@ let ImageminPlugin = require( 'imagemin-webpack-plugin' ).default;
  *
  * EDIT THIS
  */
-const browserSyncProxy = 'http://halt-wordpress.lndo.site:8000';
+const browserSyncProxy = 'http://johnjflynn.test/';
 
 /**
  * Set the public path so Mix puts its 'mix-manifest.json'
