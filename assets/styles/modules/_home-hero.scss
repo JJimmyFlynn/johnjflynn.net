@@ -3,9 +3,13 @@
 //--------------------------------------------------------------
 .m-home-hero {
   display: flex;
-  padding-top: $gutter;
+  padding: $gutter--large 0;
   background-color: $color-teal;
   color: white;
+
+  @include breakpoint($small--up) {
+    padding: $gutter 0 0 0;
+  }
 }
 
 //-----------------------------------------
@@ -19,8 +23,15 @@
 // SVG Mountains
 //-----------------------------------------
 .m-home-hero__mountains {
-  width: 100%;
-  height: auto;
+  display: none;
+
+  @include breakpoint($small--up) {
+    display: initial;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+  }
 }
 
 //-----------------------------------------
@@ -46,6 +57,7 @@
 //-----------------------------------------
 .m-home-hero__sub {
   margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 //-----------------------------------------
@@ -55,7 +67,7 @@
   display: flex;
   justify-content: center;
   color: $color-red;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .m-home-hero__tech-list-item {

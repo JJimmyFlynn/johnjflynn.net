@@ -52,3 +52,12 @@ li {
     margin-bottom: 0; // Remove extra vertical spacing when nesting lists.
   }
 }
+
+//-----------------------------------------
+// Container
+//-----------------------------------------
+.container {
+  margin: 0 auto;
+  padding: 0 $gutter;
+  max-width: 96rem;
+}

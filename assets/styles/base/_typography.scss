@@ -42,7 +42,7 @@ h6, .h6 {
 }
 
 //-----------------------------------------
-// Output heading sizes based off heading 
+// Output heading sizes based off heading
 // size map in typograhpy settings
 //-----------------------------------------
 @each $heading, $value in $heading-sizes {
@@ -57,4 +57,12 @@ h6, .h6 {
 p {
   margin: 0;
   line-height: $line-height;
+}
+
+//-----------------------------------------
+// Section Heading
+//-----------------------------------------
+.section-heading {
+  margin: 0 0 2rem;
+  font-size: 3.2rem;
 }
