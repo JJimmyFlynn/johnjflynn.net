@@ -1,0 +1,27 @@
+//--------------------------------------------------------------
+// Core Skills Styles
+//--------------------------------------------------------------
+.m-core-skills__heading {
+  margin-bottom: 3rem;
+}
+
+.m-core-skills__block {
+  margin-bottom: $gutter--large;
+  text-align: center;
+
+  @include breakpoint($medium--up) {
+    margin-bottom: 0;
+  }
+}
+
+.m-core-skills__svg {
+  margin-bottom: 1rem;
+}
+
+.m-core-skills__title {
+  margin: 0 0 2rem;
+}
+
+.m-core-skills__copy {
+  padding: 0 2rem;
+}

@@ -6,17 +6,17 @@
 //-----------------------------------------
 .m-site-header {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .m-site-header__block {
-  flex: 1 100%;
-  flex-wrap: wrap;
   padding: 1rem 0;
+  width: 100%;
   text-align: center;
   text-transform: uppercase;
 
   @include breakpoint($small--up) {
-    flex-basis: 50%;
+    width: 50%;
   }
 }
 

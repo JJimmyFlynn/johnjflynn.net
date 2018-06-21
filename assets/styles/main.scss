@@ -22,6 +22,7 @@
 
 //----------Base Styles
 @import 'base/document';
+@import 'base/grid';
 @import 'base/typography';
 
 //----------Components
@@ -35,3 +36,4 @@
 @import 'modules/header';
 @import 'modules/home-hero';
 @import 'modules/about-me';
+@import 'modules/core-skills';
