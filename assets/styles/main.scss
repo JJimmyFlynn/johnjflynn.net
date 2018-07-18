@@ -24,12 +24,14 @@
 @import 'base/document';
 @import 'base/grid';
 @import 'base/typography';
+@import 'base/icons';
 
 //----------Components
 @import 'components/buttons';
 @import 'components/descriptor-list';
 @import 'components/forms';
 @import 'components/index-section';
+@import 'components/tooltip';
 
 //----------Modules
 @import 'modules/footer';
@@ -37,3 +39,4 @@
 @import 'modules/home-hero';
 @import 'modules/about-me';
 @import 'modules/core-skills';
+@import 'modules/skills-listing';

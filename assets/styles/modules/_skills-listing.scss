@@ -1,0 +1,41 @@
+//--------------------------------------------------------------
+// Skills Listing Module Styles
+//--------------------------------------------------------------
+
+//-----------------------------------------
+// Skills List Wrap
+//-----------------------------------------
+.m-skills-listing__list-wrap {
+  display: grid;
+
+  @include breakpoint($small--up) {
+    grid-template-columns: 50% 50%;
+  }
+  @include breakpoint($medium--up) {
+    grid-template-columns: 33% 33% 33%; 
+  }
+  grid-column-gap: $gutter;
+  grid-row-gap: $gutter--small;
+  grid-template-columns: 100%;
+}
+
+
+//-----------------------------------------
+// Skills List Item
+//-----------------------------------------
+.m-skills-listing__item {
+  position: relative;
+  font-size: 2.2rem;
+}
+
+.m-skills-listing__item--has-popup {
+  cursor: pointer;
+  
+  .m-skills-listing__icon {
+    color: $color-red;
+  }
+
+  &:hover > .c-tooltip {
+    display: initial;
+  }
+}

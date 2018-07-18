@@ -1,0 +1,37 @@
+{# ------------------------------------------------------------------------------
+  Skills Listing
+  Location(s): Homepage
+
+  Parameters:
+
+
+------------------------------------------------------------------------------ #}
+
+{% import 'macros/svgs' as svgs %}
+
+<section class="m-skills-listing c-index-section">
+  <div class="container">
+    <h2 class="m-skills-listing__heading section-heading">All My Skills</h2>
+    <ul class="m-skills-listing__list-wrap u-bare-list">
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+      <li class="m-skills-listing__item m-skills-listing__item--has-popup">
+        <aside class="c-tooltip">
+          This is some copy that will go inside the tooltip! It gives a deeper explanation of the topic. I can list some more skills, like DNS management, email setup, server management, etc.
+        </aside>
+        {{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item
+      </li>
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+      <li class="m-skills-listing__item m-skills-listing__item--has-popup">
+        {{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item
+        <aside class="c-tooltip">
+          This is some copy that will go inside the tooltip! It gives a deeper explanation of the topic. I can list some more skills, like DNS management, email setup, server management, etc.
+        </aside>
+      </li>
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+      <li class="m-skills-listing__item">{{ svgs.svgs('plus', 'm-skills-listing__icon') }}Skill Item</li>
+    </ul>
+  </div>
+  {# /.container #}
+</section>

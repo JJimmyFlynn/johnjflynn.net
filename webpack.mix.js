@@ -59,7 +59,13 @@ mix.webpackConfig({
 /**
  * SASS Task
  */
-mix.sass('assets/styles/main.scss', 'styles').sourceMaps();
+mix.sass('assets/styles/main.scss', 'styles').options({
+  autoprefixer: {
+    options: {
+      grid: true,
+    }
+  }
+}).sourceMaps();
 
 /**
  * JS Task
