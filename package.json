@@ -60,7 +60,8 @@
     "rules": {
       "selector-class-pattern": null,
       "scss/double-slash-comment-whitespace-inside": null,
-      "selector-max-type": 2
+      "selector-max-type": 2,
+      "at-rule-empty-line-before": null
     }
   }
 }
