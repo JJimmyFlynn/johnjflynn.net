@@ -22,7 +22,8 @@
     "craftcms/cms": "3.0.16.1",
     "vlucas/phpdotenv": "^2.4.0",
     "misterbk/mix": "1.5.2",
-    "ether/seo": "3.3.0"
+    "ether/seo": "3.3.0",
+    "ether/simplemap": "v3.3.3"
   },
   "autoload": {
     "psr-4": {

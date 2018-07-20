@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2aa7a3f89eca17e30babc78ddd8d62e7",
+    "content-hash": "7adcd1dd08cea91cd5f8968adb82f102",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -773,6 +773,41 @@
                 "docs": "https://github.com/ethercreative/seo/blob/v3/README.md"
             },
             "time": "2018-06-25T15:22:34+00:00"
+        },
+        {
+            "name": "ether/simplemap",
+            "version": "3.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethercreative/simplemap/zipball/d7c951ef091144d3fc341ca8e4acb410a008851c",
+                "reference": "d7c951ef091144d3fc341ca8e4acb410a008851c",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-beta.20"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "simplemap",
+                "name": "SimpleMap",
+                "developer": "Ether Creative",
+                "developerUrl": "https://ethercreative.co.uk",
+                "class": "ether\\simplemap\\SimpleMap",
+                "schemaVersion": "3.0.0"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ether\\simplemap\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A beautifully simple Google Map field type.",
+            "support": {
+                "email": "tam@ethercreative.co.uk"
+            },
+            "time": "2018-03-13T20:23:51+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",

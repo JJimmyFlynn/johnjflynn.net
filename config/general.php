@@ -30,7 +30,7 @@ return [
     // Dev environment settings
     'dev' => [
         // Base site URL
-        'siteUrl' => null,
+        'siteUrl' => 'https://johnjflynn.test',
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
@@ -39,12 +39,14 @@ return [
     // Staging environment settings
     'staging' => [
         // Base site URL
-        'siteUrl' => null,
+        'siteUrl' => 'https://beta.johnjflynn.net',
+        'allowUpdates' => false,
     ],
 
     // Production environment settings
     'production' => [
         // Base site URL
-        'siteUrl' => null,
+        'siteUrl' => 'https://johnjflynn.net',
+        'allowUpdates' => false,
     ],
 ];
