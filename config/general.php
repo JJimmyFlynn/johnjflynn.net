@@ -25,6 +25,8 @@ return [
 
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => getenv('SECURITY_KEY'),
+
+        'allowUpdates' => false,
     ],
 
     // Dev environment settings
@@ -34,19 +36,19 @@ return [
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
+
+        'allowUpdates' => true,
     ],
 
     // Staging environment settings
     'staging' => [
         // Base site URL
         'siteUrl' => 'https://beta.johnjflynn.net',
-        'allowUpdates' => false,
     ],
 
     // Production environment settings
     'production' => [
         // Base site URL
         'siteUrl' => 'https://johnjflynn.net',
-        'allowUpdates' => false,
     ],
 ];
