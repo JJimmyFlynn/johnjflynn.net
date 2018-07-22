@@ -1,0 +1,30 @@
+//--------------------------------------------------------------
+// Tab Select Styles
+//--------------------------------------------------------------
+.c-tab-select {
+  display: flex;
+  justify-content: center;
+  padding: $gutter 0;
+}
+
+//-----------------------------------------
+// Tab Items
+//-----------------------------------------
+.c-tab-select__tab {
+  margin-right: $gutter * 2;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease-out;
+  
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+//-----------------------------------------
+// Active + Color State
+//-----------------------------------------
+.c-tab-select__tab--active,
+.c-tab-select__tab:hover {
+  border-color: $color-red;
+}
