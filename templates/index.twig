@@ -11,7 +11,12 @@
     'heading': entry.aboutMeHeading,
     'copy': entry.aboutMeCopy
   } %}
-  {% include 'modules/core-skills' %}
+
+  {% include 'modules/core-skills' with {
+    'wordpressCopy': entry.wordpressSkillCopy,
+    'shopifyCopy': entry.shopifySkillCopy
+  } %}
+
   {% include 'modules/skills-listing' %}
   {% include 'modules/work' %}
 {% endblock %}
