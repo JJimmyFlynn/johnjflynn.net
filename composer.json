@@ -24,7 +24,8 @@
     "misterbk/mix": "1.5.2",
     "ether/seo": "3.3.0",
     "ether/simplemap": "v3.3.3",
-    "craftcms/redactor": "^2.1"
+    "craftcms/redactor": "^2.1",
+    "verbb/cp-nav": "2.0.8"
   },
   "autoload": {
     "psr-4": {
