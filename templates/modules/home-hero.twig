@@ -3,6 +3,9 @@
   Location(s): Homepage
 
   Parameters:
+    - title {string}
+    - subTitle {string}
+    - skillsList {array}
 
 ------------------------------------------------------------------------------ #}
 <section class="m-home-hero flexgrid">
@@ -26,11 +29,11 @@
   ------------------------------------------------------------------------------ #}
   <div class="m-home-hero__block m-home-hero__content">
     <div class="m-home-hero__inner">
-      <h2 class="m-home-hero__name">{{ entry.heroTitle }}</h2>
-      <p class="m-home-hero__sub">{{ entry.heroSubTitle }}</p>
-      {% if entry.heroSkillsList %}
+      <h2 class="m-home-hero__name">{{ title }}</h2>
+      <p class="m-home-hero__sub">{{ subTitle }}</p>
+      {% if skillsList %}
         <ul class="m-home-hero__tech-list u-bare-list">
-        {% for skill in entry.heroSkillsList %}
+        {% for skill in skillsList %}
           <li class="m-home-hero__tech-list-item">{{ skill.skillName }}</li>
         {% endfor %}
         </ul>
