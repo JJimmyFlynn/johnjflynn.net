@@ -26,13 +26,15 @@
   ------------------------------------------------------------------------------ #}
   <div class="m-home-hero__block m-home-hero__content">
     <div class="m-home-hero__inner">
-      <h2 class="m-home-hero__name">John Flynn</h2>
-      <p class="m-home-hero__sub">Crafter of things</p>
-      <ul class="m-home-hero__tech-list u-bare-list">
-        <li class="m-home-hero__tech-list-item">Shopify</li>
-        <li class="m-home-hero__tech-list-item">WordPress</li>
-        <li class="m-home-hero__tech-list-item">PHP</li>
-      </ul>
+      <h2 class="m-home-hero__name">{{ entry.heroTitle }}</h2>
+      <p class="m-home-hero__sub">{{ entry.heroSubTitle }}</p>
+      {% if entry.heroSkillsList %}
+        <ul class="m-home-hero__tech-list u-bare-list">
+        {% for skill in entry.heroSkillsList %}
+          <li class="m-home-hero__tech-list-item">{{ skill.skillName }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
     </div>
     {# /.m-home-hero__inner #}
   </div>

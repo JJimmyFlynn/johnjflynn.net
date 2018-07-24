@@ -1,11 +1,15 @@
 <div class="m-site-header__left m-site-header__block">
-  John Flynn
+  {{ headerSettings.siteTitle }}
 </div>
 {# /.m-site-header__left #}
 
 <div class="m-site-header__right m-site-header__block">
-	<ul class="c-descriptor-list u-bare-list">
-		<li class="c-descriptor-list__item">Web Developer</li>
-	</ul>
+  {% if headerSettings.skillsScroller|length %}
+    <ul class="c-descriptor-list u-bare-list">
+      {% for skill in headerSettings.skillsScroller %}
+        <li class="c-descriptor-list__item">{{ skill.skillName }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
 {# /.m-site-header__right #}
