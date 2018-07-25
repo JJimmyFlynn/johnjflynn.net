@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b629d2e09de76c1d1666ea36a7beb93e",
+    "content-hash": "8f4ea4239cdde52f564bf1aff1c0a9d8",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -299,11 +299,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.17",
+            "version": "3.0.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c187abe1d9898bd24d90aff523e8fde6a9413e10",
-                "reference": "c187abe1d9898bd24d90aff523e8fde6a9413e10",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/7619e6fd236dfdbbbbcc0006113c6796dd7d95ed",
+                "reference": "7619e6fd236dfdbbbbcc0006113c6796dd7d95ed",
                 "shasum": ""
             },
             "require": {
@@ -374,7 +374,7 @@
                 "docs": "https://github.com/craftcms/docs",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2018-07-24T17:30:08+00:00"
+            "time": "2018-07-24T20:54:02+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -460,11 +460,11 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/d49309d7c251d15c729093e208dd21b9cfc05a19",
-                "reference": "d49309d7c251d15c729093e208dd21b9cfc05a19",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/3ba43bd591c7246220859e8e36838e5deede80f3",
+                "reference": "3ba43bd591c7246220859e8e36838e5deede80f3",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +482,6 @@
                     "craft\\redactor\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -494,13 +493,20 @@
             ],
             "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
             "keywords": [
-                "Redactor",
                 "cms",
                 "craftcms",
                 "html",
+                "redactor",
                 "yii2"
             ],
-            "time": "2018-07-14T09:42:21+00:00"
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/redactor/issues?state=open",
+                "source": "https://github.com/craftcms/redactor",
+                "docs": "https://github.com/craftcms/redactor",
+                "rss": "https://github.com/craftcms/redactor/commits/master.atom"
+            },
+            "time": "2018-07-25T09:56:15+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -719,19 +725,15 @@
         },
         {
             "name": "elvanto/litemoji",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/7c0276dd0e5004bc78b7865e12030f3d2b6b8d0e",
-                "reference": "7c0276dd0e5004bc78b7865e12030f3d2b6b8d0e",
+                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/b30d679cad29531ec16ca1afadebc78c4495fa10",
+                "reference": "b30d679cad29531ec16ca1afadebc78c4495fa10",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4"
-            },
-            "require-dev": {
-                "milesj/emojibase": "*",
-                "phpunit/phpunit": "^5.0"
             },
             "type": "library",
             "autoload": {
@@ -739,7 +741,6 @@
                     "LitEmoji\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -748,7 +749,7 @@
                 "emoji",
                 "php-emoji"
             ],
-            "time": "2018-05-25T04:37:05+00:00"
+            "time": "2018-07-24T06:21:15+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",

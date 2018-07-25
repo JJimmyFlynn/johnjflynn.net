@@ -17,6 +17,10 @@
     'shopifyCopy': entry.shopifySkillCopy
   } %}
 
-  {% include 'modules/skills-listing' %}
+  {% include 'modules/skills-listing' with {
+    'heading': entry.skillsListHeading,
+    'skillsList': entry.skillsListSkills
+  } %}
+
   {% include 'modules/work' %}
 {% endblock %}
