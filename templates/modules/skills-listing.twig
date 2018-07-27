@@ -15,7 +15,7 @@
     {% if skillsList|length %}
       <ul class="m-skills-listing__list-wrap u-bare-list">
         {% for skill in skillsList %}
-          <li class="m-skills-listing__item{% if skill.skillTooltip %} m-skills-listing__item--has-popup{% endif %}">
+          <li class="m-skills-listing__item{{ skill.skillTooltip ? ' m-skills-listing__item--has-popup' : '' }}">
             {% if skill.skillTooltip %}
               <aside class="c-tooltip">
                 {{ skill.skillTooltip }}
