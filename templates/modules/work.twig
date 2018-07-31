@@ -2,11 +2,52 @@
   <div class="container">
     <h2 class="section-heading">Some of My Work</h2>
     <div class="m-work__type-select c-tab-select">
-      <span class="c-tab-select__tab c-tab-select__tab--active">WordPress</span>
-      <span class="c-tab-select__tab">Shopify</span>
-      <span class="c-tab-select__tab">Miscellaneous</span>
+
+      {#-----
+        Get top-level portfolio items
+        for slider navigation
+      -----#}
+      {% set portfolioTypes = craft.entries().section('portfolio').level(1).all() %}
+      {% for portfolioType in portfolioTypes %}
+        <span class="c-tab-select__tab{{ loop.first ? ' c-tab-select__tab--active' : '' }}">{{ portfolioType.title }}</span>
+      {% endfor %}
+
     </div>
     {# /.c-tab-select #}
+
+    <div class="c-slider" data-slider>
+      <div class="c-slider__item c-slider__item--halves">
+        <div class="c-slider__block">
+          <img src="//placehold.it/500x500" alt="">
+        </div>
+        {# /.c-clider__block #}
+        <div class="c-slider__block">
+          <h3 class="c-slider__heading">Drew's Organics</h3>
+          <div class="c-slider__copy">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta ipsam a facere quas accusantium voluptas? Veritatis dolorem totam doloribus fuga accusamus explicabo tenetur perferendis laborum voluptatibus harum, blanditiis earum.
+          </div>
+          {# /.c-slider__copy #}
+        </div>
+        {# /.c-slider__block #}
+      </div>
+      {# /.c-slider__item #}
+      <div class="c-slider__item c-slider__item--halves">
+        <div class="c-slider__block">
+          <img src="//placehold.it/500x500" alt="">
+        </div>
+        {# /.c-clider__block #}
+        <div class="c-slider__block">
+          <h3 class="c-slider__header">Drew's Organics</h3>
+          <div class="c-slider__copy">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta ipsam a facere quas accusantium voluptas? Veritatis dolorem totam doloribus fuga accusamus explicabo tenetur perferendis laborum voluptatibus harum, blanditiis earum.
+          </div>
+          {# /.c-slider__copy #}
+        </div>
+        {# /.c-slider__block #}
+      </div>
+      {# /.c-slider__item #}
+    </div>
+    {# /.c-slider #}
   </div>
   {# /.container #}
 </section>

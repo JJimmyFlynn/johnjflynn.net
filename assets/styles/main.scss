@@ -1,12 +1,13 @@
 //--------------------------------------------------------------
 // Main Sass file for JohnJFlynn.net
 // Author: John Flynn
-// 
+//
 // Only imports here
 //--------------------------------------------------------------
 
 //----------Vendor Styles
 @import 'vendor/normalize';
+@import 'vendor/flickity';
 
 //----------Settings
 @import 'settings/fonts';
@@ -33,6 +34,7 @@
 @import 'components/index-section';
 @import 'components/tooltip';
 @import 'components/tab-select';
+@import 'components/slider';
 
 //----------Modules
 @import 'modules/footer';
