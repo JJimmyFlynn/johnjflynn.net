@@ -1,7 +1,8 @@
-import Flickity from 'flickity';
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const slider = document.querySelectorAll('[data-slider]');
+  const slidersWrapper = document.querySelector('[data-sliders-wrapper]')
 
   /**
    * Exit if no slider is present
@@ -10,9 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  slider.forEach(element => {
-    new Flickity(element, {
-      prevNextButtons: false
-    });
-  });
+
 });

@@ -4,4 +4,4 @@
 /node_modules
 .DS_Store
 .env.sh
-/web/images
+/web/assets

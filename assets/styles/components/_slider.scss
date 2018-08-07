@@ -39,14 +39,24 @@
 //-----------------------------------------
 // Flickity Override
 //-----------------------------------------
-.flickity-page-dots .dot {
-  width: 5rem;
-  height: 0.8rem;
-  border-radius: 0;
-  background-color: $color-red;
-  transition: opacity 0.15s ease-in-out;
+.flickity-prev-next-button {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+
+  .flickity-slider:hover & {
+    opacity: 1;
+
+    &:disabled {
+      opacity: 0;
+    }
+  }
+
 }
 
-.flickity-page-dots .dot:hover {
-  opacity: 1;
+.flickity-button-icon {
+  fill: $color-red;
+}
+
+.flickity-button:disabled {
+  opacity: 0;
 }

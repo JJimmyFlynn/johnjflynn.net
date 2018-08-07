@@ -1,1 +1,1 @@
-import './modules/slider';
+import './modules/work-slider';
