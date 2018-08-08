@@ -5,12 +5,28 @@
   Parameters:
    - heading {string}
    - content {string}
+   - githubUrl {string}
+   - codepenUrl {string}
 
 ------------------------------------------------------------------------------ #}
+
+{% import 'macros/svgs' as svgs %}
 
 <section class="m-contact c-index-section">
   <div class="container">
     <h2 class="section-heading">Looking to get in touch?</h2>
     <p class="m-contact__content">Drop me a line at: <span class="underline">john at johnjflynn.net</span></p>
+    <div class="m-contact__external-links">
+      <a href="https://github.com/JJimmyFlynn" target="_blank" rel="noopener">
+        {{ svgs.svgs('github-logo') }}
+        <span class="visually-hidden">John Flynn on Github</span>
+      </a>
+      <a href="https://codepen.io/JJimmyFlynn/" target="_blank" rel="noopener">
+        {{ svgs.svgs('codepen-logo') }}
+        <span class="visually-hidden">John Flynn on Codepen</span>
+      </a>
+    </div>
+    {# /.m-contact__external-links #}
   </div>
+  {# /.container #}
 </section>

@@ -11,3 +11,21 @@
     text-decoration-color: $color-red;
   }
 }
+
+//-----------------------------------------
+// External Portfolio Links
+//-----------------------------------------
+.m-contact__external-links {
+  display: flex;
+  justify-content: center;
+  padding: $gutter * 1.5 0;
+
+  a:first-of-type {
+    margin-right: $gutter;
+  }
+
+  svg {
+    width: 6rem;
+    height: auto;
+  }
+}
