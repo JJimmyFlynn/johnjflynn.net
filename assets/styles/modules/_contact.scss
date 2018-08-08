@@ -1,0 +1,13 @@
+//--------------------------------------------------------------
+// Contact Module Styles
+//--------------------------------------------------------------
+.m-contact__content {
+  text-align: center;
+  font-size: 2.8rem;
+
+  .underline {
+    text-decoration: underline;
+
+    text-decoration-color: $color-red;
+  }
+}

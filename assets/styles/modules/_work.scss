@@ -4,22 +4,22 @@
 .m-work__sliders-wrapper {
   position: relative;
 
-  .c-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
+  @include clearfix;
 }
 
 //-----------------------------------------
 // Work Slider
 //-----------------------------------------
 .m-work__slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   transition: all 0.4s ease;
   transform: translateY(5rem);
   
   &--active {
+    position: relative;
     z-index: 1;
     opacity: 1;
     transition-delay: 0.3s;

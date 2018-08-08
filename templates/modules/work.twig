@@ -11,7 +11,7 @@
     </div>
     {# /.c-tab-select #}
 
-    <div class="m-work__sliders-wrapper" data-sliders-wrapper>
+    <div class="m-work__sliders-wrapper clearfix" data-sliders-wrapper>
 
     {# Create a slider for each portfolio category #}
     {% for category in craft.categories().group('portfolioCategory').all() %}
