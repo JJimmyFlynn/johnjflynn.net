@@ -8,22 +8,31 @@
   transform: translateY(5rem);
 }
 
-.c-slider--is-active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
+//-----------------------------------------
+// Slider Slide
+//-----------------------------------------
 .c-slider__item {
   display: flex;
+  flex-wrap: wrap;
   width: 100%; // fix issue with flickity
 }
 
+//-----------------------------------------
+// Slider Slide 2 Columns
+//-----------------------------------------
 .c-slider__item--halves {
   .c-slider__block {
-    width: 50%;
+    width: 100%;
+
+    @include breakpoint($medium--up) {
+      width: 50%;
+    }
   }
 }
 
+///-----------------------------------------
+// Slider Block
+//-----------------------------------------
 .c-slider__block {
   padding-right: $gutter;
 
@@ -32,6 +41,21 @@
   }
 }
 
+//-----------------------------------------
+// Slider Image Block
+//-----------------------------------------
+.c-slider__image-block {
+  margin-bottom: $gutter;
+  text-align: center;
+
+  @include breakpoint($medium--up) {
+    margin-bottom: 0;
+  }
+}
+
+//-----------------------------------------
+// Slider Content Heading
+//-----------------------------------------
 .c-slider__heading {
   margin: 0 0 1.5rem;
 }
@@ -39,24 +63,18 @@
 //-----------------------------------------
 // Flickity Override
 //-----------------------------------------
-.flickity-prev-next-button {
-  opacity: 0;
-  transition: opacity 0.15s ease;
-
-  .flickity-slider:hover & {
-    opacity: 1;
-
-    &:disabled {
-      opacity: 0;
-    }
-  }
-
+.flickity-page-dots {
+  bottom: -3rem;
 }
 
-.flickity-button-icon {
-  fill: $color-red;
+.flickity-page-dots .dot {
+  width: 5rem;
+  height: 0.8rem;
+  border-radius: 0;
+  background-color: $color-red;
+  transition: opacity 0.15s ease-in-out;
 }
 
-.flickity-button:disabled {
-  opacity: 0;
+.flickity-page-dots .dot:hover {
+  opacity: 1;
 }

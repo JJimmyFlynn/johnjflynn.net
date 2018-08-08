@@ -7,8 +7,7 @@
 
 //----------Vendor Styles
 @import 'vendor/normalize';
-@import '~/slick-carousel/slick/slick.css';
-@import '~/slick-carousel/slick/slick-theme.css';
+@import 'vendor/flickity';
 
 //----------Settings
 @import 'settings/fonts';
