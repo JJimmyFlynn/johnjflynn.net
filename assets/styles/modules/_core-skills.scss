@@ -12,6 +12,10 @@
   @include breakpoint($medium--up) {
     margin-bottom: 0;
   }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .m-core-skills__svg {

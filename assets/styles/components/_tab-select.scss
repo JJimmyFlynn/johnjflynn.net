@@ -11,10 +11,14 @@
 // Tab Items
 //-----------------------------------------
 .c-tab-select__tab {
-  margin-right: $gutter * 2;
+  margin-right: $gutter;
   border-bottom: 2px solid transparent;
   cursor: pointer;
   transition: border-color 0.2s ease-out;
+
+  @include breakpoint($small--up) {
+    margin-right: $gutter * 2;
+  }
   
   &:last-of-type {
     margin-right: 0;
