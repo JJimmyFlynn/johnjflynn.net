@@ -22,7 +22,10 @@
         {% for slide in craft.entries().section('portfolio').relatedTo(currentCategory).with(['image']).all() | reverse %}
           <div class="c-slider__item c-slider__item--halves">
             <div class="c-slider__block c-slider__image-block">
-              <img src="{{ slide.image[0].url }}" alt="">
+
+              {% set slideImage = slide.image[0] %}
+              {% set transformedImage = craft.imager.transformImage(slideImage, { width: 500 }) %}
+              <img src="{{ transformedImage.url }}" alt="{{ slideImage.title }}">
             </div>
             {# /.c-clider__block #}
             <div class="c-slider__block c-slider__content-block">
