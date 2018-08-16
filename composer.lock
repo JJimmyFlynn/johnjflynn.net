@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "67034d6d2fe9bbb8e59c3292719a6419",
+    "content-hash": "aedaad8015da4ab5617ecf54c9c4fa3b",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -420,11 +420,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.19",
+            "version": "3.0.20",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/24ce69a3150fcbed51cd71e13db754fe169423c2",
-                "reference": "24ce69a3150fcbed51cd71e13db754fe169423c2",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/def373ae3e0f1b8b469efd8399d71f87301c6a0e",
+                "reference": "def373ae3e0f1b8b469efd8399d71f87301c6a0e",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "docs": "https://github.com/craftcms/docs",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2018-08-07T18:08:50+00:00"
+            "time": "2018-08-14T17:37:50+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -631,11 +631,11 @@
         },
         {
             "name": "craftcms/server-check",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/server-check/zipball/5d6a2c6033db666fd775c301b6c92b9a86487ace",
-                "reference": "5d6a2c6033db666fd775c301b6c92b9a86487ace",
+                "url": "https://api.github.com/repos/craftcms/server-check/zipball/e3955dcfe0ee3c9886b415c2c912e232594cefaf",
+                "reference": "e3955dcfe0ee3c9886b415c2c912e232594cefaf",
                 "shasum": ""
             },
             "type": "library",
@@ -655,7 +655,7 @@
                 "requirements",
                 "yii2"
             ],
-            "time": "2018-07-25T19:16:43+00:00"
+            "time": "2018-08-14T18:02:05+00:00"
         },
         {
             "name": "creocoder/yii2-nested-sets",
