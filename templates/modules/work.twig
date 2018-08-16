@@ -1,6 +1,15 @@
+{# ------------------------------------------------------------------------------
+  Work Showcase
+  Location(s): Homepage
+
+  Parameters:
+    - heading {string}
+
+------------------------------------------------------------------------------ #}
+
 <section class="m-work c-index-section">
   <div class="container">
-    <h2 class="section-heading">Some of My Work</h2>
+    <h2 class="section-heading">{{ heading }}</h2>
     <div class="m-work__type-select c-tab-select" data-work-slider-select>
 
       {# Output each portfolio category as a tab select #}
@@ -24,7 +33,7 @@
             <div class="c-slider__block c-slider__image-block">
 
               {% set slideImage = slide.image[0] %}
-              {% set transformedImage = craft.imager.transformImage(slideImage, { width: 500 }) %}
+              {% set transformedImage = craft.imager.transformImage(slideImage, { width: 500, height: 500, position: '0% 0%' }) %}
               <img src="{{ transformedImage.url }}" alt="{{ slideImage.title }}">
             </div>
             {# /.c-clider__block #}

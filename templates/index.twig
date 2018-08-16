@@ -22,7 +22,9 @@
     'skillsList': entry.skillsListSkills
   } %}
 
-  {% include 'modules/work' %}
+  {% include 'modules/work' with {
+    'heading': entry.workHeading
+  } %}
 
   {% include 'modules/contact' %}
 {% endblock %}
