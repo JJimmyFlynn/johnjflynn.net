@@ -1,0 +1,30 @@
+{# ------------------------------------------------------------------------------
+  Responsive Image Partial
+
+  Parameters:
+   - image {image object}
+   - additional_classes {string} (optional)
+
+------------------------------------------------------------------------------ #}
+
+{% set transformedImages = craft.imager.transformImage(image, [
+  { width: 250, height: 250 },
+  { width: 350, height: 350 },
+  { width: 500, height: 500 },
+  { width: 800, height: 800 }
+],
+{
+  allowUpscale: false,
+  mode: 'crop',
+  position: '0% 0%'
+}
+) %}
+<div class="image-wrapper" style="padding-bottom: 100%;">
+  <img
+    class="lazyload is-lazyloaded {{ additional_classes | default('') }}"
+    data-src="{{ transformedImages[2].url }}"
+    data-srcset="{{ craft.imager.srcset(transformedImages) }}"
+    data-sizes="auto"
+    alt="{{ slideImage.title }}"
+  >
+</div>

@@ -67,6 +67,6 @@
   },
   "dependencies": {
     "flickity": "^2.1.2",
-    "slick-carousel": "^1.8.1"
+    "lazysizes": "^4.1.1"
   }
 }
