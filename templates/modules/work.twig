@@ -33,8 +33,7 @@
             <div class="c-slider__block c-slider__image-block ">
 
               {% set slideImage = slide.image[0] %}
-              {# {% set transformedImage = craft.imager.transformImage(slideImage, { width: 500, height: 500, position: '0% 0%' }) %} #}
-              {% include 'partials/responsive-image' with { image: slideImage } %}
+              {% include 'partials/work-image' with { image: slideImage } %}
             </div>
             {# /.c-clider__block #}
             <div class="c-slider__block c-slider__content-block">

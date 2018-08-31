@@ -1,3 +1,7 @@
+//--------------------------------------------------------------
+// General Image Styles
+//--------------------------------------------------------------
+
 .image-wrapper {
   position: relative;
   height: 0;
@@ -13,6 +17,16 @@
   }
 }
 
+//-----------------------------------------
+// Noscript Images
+//-----------------------------------------
+.no-js .js-image { // Hide lazyloaded images in favor of noscript images
+  display: none;
+}
+
+//-----------------------------------------
+// Lazyloaded Images
+//-----------------------------------------
 .is-lazyloaded {
   opacity: 0;
   transition: opacity 0.2s ease;

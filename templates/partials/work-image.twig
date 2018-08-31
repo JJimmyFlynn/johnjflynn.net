@@ -1,9 +1,8 @@
 {# ------------------------------------------------------------------------------
-  Responsive Image Partial
+  Responsive Work Image Partial
 
   Parameters:
    - image {image object}
-   - additional_classes {string} (optional)
 
 ------------------------------------------------------------------------------ #}
 
@@ -16,15 +15,21 @@
 {
   allowUpscale: false,
   mode: 'crop',
-  position: '0% 0%'
+  position: '0% 0%',
+  format: 'jpg',
+  jpegQuality: 80
 }
 ) %}
-<div class="image-wrapper" style="padding-bottom: 100%;">
+<div class="image-wrapper js-image" style="padding-bottom: 100%;">
   <img
-    class="lazyload is-lazyloaded {{ additional_classes | default('') }}"
+    class="lazyload is-lazyloaded"
     data-src="{{ transformedImages[2].url }}"
     data-srcset="{{ craft.imager.srcset(transformedImages) }}"
     data-sizes="auto"
     alt="{{ slideImage.title }}"
   >
 </div>
+
+<noscript>
+  <img src="{{ transformedImages[2].url }}" alt="{{ slideImage.title }}">
+</noscript>
