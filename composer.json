@@ -19,11 +19,11 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.0.20",
+    "craftcms/cms": "3.0.22",
     "vlucas/phpdotenv": "^2.4.0",
     "misterbk/mix": "1.5.2",
-    "ether/seo": "3.3.0",
-    "craftcms/redactor": "2.1.5",
+    "ether/seo": "3.3.1",
+    "craftcms/redactor": "2.1.6",
     "verbb/cp-nav": "2.0.8",
     "wbrowar/adminbar": "3.1.6",
     "aelvan/imager": "v2.1.0"
