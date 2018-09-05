@@ -6,3 +6,17 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.c-descriptor-list__item {
+  display: none;
+  opacity: 0;
+  transition: all 0.2s ease;
+  transform: translateX(-4rem);
+
+  &.is-visible {
+    display: inline-block;
+    opacity: 1;
+    transition: all 0.2s 0.2s ease;
+    transform: translateX(0);
+  }
+}
