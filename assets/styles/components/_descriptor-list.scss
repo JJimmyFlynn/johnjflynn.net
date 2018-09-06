@@ -2,21 +2,20 @@
 // Style for Descriptor List Component
 //--------------------------------------------------------------
 .c-descriptor-list {
+  position: relative;
   color: white;
   text-align: center;
   text-transform: uppercase;
 }
 
 .c-descriptor-list__item {
-  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
   opacity: 0;
-  transition: all 0.2s ease;
-  transform: translateX(-4rem);
-
+  
   &.is-visible {
-    display: inline-block;
     opacity: 1;
-    transition: all 0.2s 0.2s ease;
-    transform: translateX(0);
   }
 }
