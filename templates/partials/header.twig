@@ -7,7 +7,7 @@
   {% if headerSettings.skillsScroller|length %}
     <ul class="c-descriptor-list u-bare-list">
       {% for skill in headerSettings.skillsScroller %}
-        <li class="c-descriptor-list__item">{{ skill.skillName }}</li>
+        <li class="c-descriptor-list__item anim{% if loop.first %} is-visible{% endif %}" data-descriptor-list-item>{{ skill.skillName }}</li>
       {% endfor %}
     </ul>
   {% endif %}
