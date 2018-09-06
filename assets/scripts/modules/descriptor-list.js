@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let descriptorIndex = 1; // Start at the 2nd array index
 
   /**
-   * Swap the displayed term every 5 seconds
+   * Swap the displayed term every 4 seconds
    */
   setInterval(() => {
 
@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded', () => {
       descriptorIndex++;
     }
 
-  }, 5000);
+  }, 4000);
 } );
