@@ -20,14 +20,39 @@
   jpegQuality: 80
 }
 ) %}
+
+{% if craft.imager.serverSupportsWebp() %}
+  {% set transformedWebpImages = craft.imager.transformImage(image, [
+  { width: 250, height: 250 },
+  { width: 350, height: 350 },
+  { width: 500, height: 500 },
+  { width: 800, height: 800 }
+],
+{
+  allowUpscale: false,
+  mode: 'crop',
+  position: '0% 0%',
+  format: 'webp',
+  jpegQuality: 80
+}
+) %}
+{% endif %}
+
 <div class="image-wrapper js-image" style="padding-bottom: 100%;">
-  <img
-    class="lazyload is-lazyloaded"
-    data-src="{{ transformedImages[2].url }}"
-    data-srcset="{{ craft.imager.srcset(transformedImages) }}"
-    data-sizes="auto"
-    alt="{{ slideImage.title }}"
-  >
+  <picture>
+    {% if craft.imager.serverSupportsWebP() %}
+      <source data-sizes="auto" data-srcset="{{ craft.imager.srcset(transformedWebpImages) }}" type="image/webp">
+    {% endif %}
+
+    <img
+      class="lazyload is-lazyloaded"
+      data-src="{{ transformedWebpImages[2].url }}"
+      data-srcset="{{ craft.imager.srcset(transformedImages) }}"
+      data-sizes="auto"
+      alt="{{ slideImage.title }}"
+    >
+
+  </picture>
 </div>
 
 <noscript>
