@@ -66,3 +66,12 @@ p {
   margin: 0 0 2rem;
   font-size: 3.2rem;
 }
+
+//-----------------------------------------
+// Editor Content
+//-----------------------------------------
+.editor-content {
+  p:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+}
