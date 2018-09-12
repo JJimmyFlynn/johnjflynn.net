@@ -19,7 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.0.23.1",
+    "craftcms/cms": "3.0.24",
     "vlucas/phpdotenv": "^2.4.0",
     "misterbk/mix": "1.5.2",
     "craftcms/redactor": "2.1.6",
@@ -27,7 +27,7 @@
     "wbrowar/adminbar": "3.1.6",
     "aelvan/imager": "v2.1.0",
     "nystudio107/craft-typogrify": "1.1.11",
-    "ether/seo": "v3.4.4"
+    "ether/seo": "3.4.4"
   },
   "autoload": {
     "psr-4": {
