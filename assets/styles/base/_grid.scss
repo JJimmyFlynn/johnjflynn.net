@@ -127,3 +127,28 @@
     width: calc(25% - (#{$gutter--small} * 2));
   }
 }
+
+//-----------------------------------------
+// Three Fourth Grid
+//-----------------------------------------
+.three-fourths {
+  width: calc(75% - (#{$gutter--small} * 2));
+}
+
+.three-fourths--large-up {
+  @include breakpoint($large--up) {
+    width: calc(75% - (#{$gutter--small} * 2));
+  }
+}
+
+.three-fourths--medium-up {
+  @include breakpoint($medium--up) {
+    width: calc(75% - (#{$gutter--small} * 2));
+  }
+}
+
+.three-fourths--small-up {
+  @include breakpoint($small--up) {
+    width: calc(75% - (#{$gutter--small} * 2));
+  }
+}

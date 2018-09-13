@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "/scripts/main.js": "/scripts/main.js?id=c3333ba50b98e17769bb",
     "/styles/main.css": "/styles/main.css?id=f17211c17b52f518cb66",
     "/scripts/main.js.map": "/scripts/main.js.map?id=02339fede7044b072c71",
     "/styles/main.css.map": "/styles/main.css.map?id=5738d54fb5759672a06a"
+=======
+    "/scripts/main.js": "/scripts/main.js?id=d39ed0a5779be634b683",
+    "/styles/main.css": "/styles/main.css?id=b667db17005aff830abd"
+>>>>>>> origin/dev
 }
