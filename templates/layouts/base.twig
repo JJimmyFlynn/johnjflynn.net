@@ -20,14 +20,18 @@
       {% endblock %}
     </main>
 
-    <footer class="m-site-footer" role="contentinfo">
-      {% block footer %}
-        {% include 'partials/footer.twig' %}
-      {% endblock %}
-    </footer>
-
-  {{ adminbar() }}
   <script src="{{ mix('scripts/main.js') }}"></script>
+
+  {# Output additional code depending on environment #}
+  {% if not craft.config.devMode %}
+    {% if generalSettings.googleAnalyticsCode is defined %}
+      {{ generalSettings.googleAnalyticsCode | raw }}
+    {% endif %}
+
+  {% else %}
+    {{ adminbar() }}
+  {% endif %}
+
   </body>
 
 </html>
