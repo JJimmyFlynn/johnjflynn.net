@@ -53,6 +53,5 @@ return [
     'production' => [
         // Base site URL
         'siteUrl' => 'https://johnjflynn.net',
-        'devMode' => true,
     ],
 ];
