@@ -32,7 +32,7 @@ return [
     // Dev environment settings
     'dev' => [
         // Base site URL
-        'siteUrl' => 'https://johnjflynn.test',
+        'siteUrl' => 'http://johnjflynn.test',
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,

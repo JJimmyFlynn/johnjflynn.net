@@ -4,7 +4,6 @@
 
 import { setInterval } from "timers";
 
-document.addEventListener('DOMContentLoaded', () => {
   const descriptorListItems = document.querySelectorAll('[data-descriptor-list-item]');
   const descriptorListLength = descriptorListItems.length;
   let descriptorIndex = 1; // Start at the 2nd array index
@@ -30,4 +29,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
   }, 4000);
-} );

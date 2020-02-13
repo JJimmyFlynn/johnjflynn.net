@@ -15,14 +15,16 @@
       {% endblock %}
     </header>
 
-    <main role="main" class="main">
+    <main role="main" class="main" id="app">
+      {#<test></test>#}
       {% block content %}
       {% endblock %}
     </main>
 
-  <script src="{{ mix('scripts/main.js') }}"></script>
+  {#<script src="{{ mix('scripts/main.js') }}"></script>#}
+  {{ craft.twigpack.includeJsModule("main.js", true) }}
 
-  {# Output additional code depending on environment #}
+    {# Output additional code depending on environment #}
   {% if not craft.app.config.general.devMode %}
     {% if generalSettings.googleAnalyticsCode is defined %}
       {{ generalSettings.googleAnalyticsCode | raw }}
