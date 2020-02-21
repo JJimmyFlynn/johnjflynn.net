@@ -625,10 +625,6 @@ plugins:
       enableMobileMenu: true
       widgets:
         admin-bar_edit-links: '1'
-  copy:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   cp-nav:
     enabled: '1'
     licenseKey: null
