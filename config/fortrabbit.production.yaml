@@ -1,0 +1,10 @@
+app: johnjflynn
+ssh_url: johnjflynn@deploy.us1.frbit.com
+git_remote: johnjflynn/master
+asset_path: web/assets
+before:
+    code/up:
+        - 'echo  "Script example: " $(git rev-parse HEAD)'
+after:
+    code/down:
+        - 'php craft migrate/all'
