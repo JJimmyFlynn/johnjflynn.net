@@ -147,7 +147,7 @@ cp-nav:
       prevUrl: categories
       type: '0'
       url: categories
-dateModified: 1582313909
+dateModified: 1582316967
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
@@ -629,11 +629,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  cp-nav:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 2.0.4
-    settings: null
   imager:
     enabled: '1'
     licenseKey: null

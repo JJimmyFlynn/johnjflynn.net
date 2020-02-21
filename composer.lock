@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6c941723ade5a190dc87a59e79e9067",
+    "content-hash": "6f83e1dc3ad227969511f6194abda909",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -5095,59 +5095,6 @@
             ],
             "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
             "time": "2020-01-23T22:22:44+00:00"
-        },
-        {
-            "name": "verbb/cp-nav",
-            "version": "3.0.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/verbb/cp-nav/zipball/1cd91a38e135537e68a14c3d7be556d79a4d9ed6",
-                "reference": "1cd91a38e135537e68a14c3d7be556d79a4d9ed6",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.4.0-RC1",
-                "verbb/base": "^1.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Control Panel Nav",
-                "handle": "cp-nav",
-                "changelogUrl": "https://raw.githubusercontent.com/verbb/cp-nav/craft-3/CHANGELOG.md",
-                "class": "verbb\\cpnav\\CpNav"
-            },
-            "autoload": {
-                "psr-4": {
-                    "verbb\\cpnav\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Verbb",
-                    "homepage": "http://verbb.io"
-                }
-            ],
-            "description": "Control Panel Nav helps you managing your Control Panel navigation.",
-            "keywords": [
-                "cms",
-                "control panel nav",
-                "control panel navigation",
-                "cp nav",
-                "craft",
-                "craft-plugin",
-                "craftcms"
-            ],
-            "support": {
-                "email": "support@verbb.io",
-                "issues": "https://github.com/verbb/cp-nav/issues?state=open",
-                "source": "https://github.com/verbb/cp-nav",
-                "docs": "https://github.com/verbb/cp-nav",
-                "rss": "https://github.com/verbb/cp-nav/commits/v2.atom"
-            },
-            "time": "2020-02-15T03:08:35+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
