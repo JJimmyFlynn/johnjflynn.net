@@ -57,6 +57,7 @@ return [
     'production' => [
         // Base site URL
         'siteUrl' => 'https://johnjflynn.net',
-        'allowAdminChanges' => false
+        'allowAdminChanges' => false,
+        'allowUpdates'      => false
     ],
 ];
