@@ -1,0 +1,843 @@
+categoryGroups:
+  79c1d31d-a90e-47f5-87e4-6041c3569846:
+    handle: portfolioCategory
+    name: 'Portfolio Category'
+    siteSettings:
+      3af667cd-f79e-4ed4-b209-421713d485f6:
+        hasUrls: false
+        template: null
+        uriFormat: null
+    structure:
+      maxLevels: null
+      uid: e0c04416-8e99-4ff4-acae-710a31478635
+cp-nav:
+  layouts:
+    e68077a0-c34c-4754-9e6a-8b70cc4e477e:
+      isDefault: '1'
+      name: Default
+      permissions: null
+  navigations:
+    538560fa-cf85-44f3-bf76-60831379fca5:
+      currLabel: Settings
+      customIcon: null
+      enabled: '1'
+      handle: settings
+      icon: settings
+      layoutId: '1'
+      newWindow: '0'
+      order: '7'
+      prevLabel: Settings
+      prevUrl: settings
+      type: '0'
+      url: settings
+    6c89072c-bf2c-466d-9ba1-a77df088141b:
+      currLabel: Utilities
+      customIcon: null
+      enabled: '1'
+      handle: utilities
+      icon: tool
+      layoutId: '1'
+      newWindow: '0'
+      order: '6'
+      prevLabel: Utilities
+      prevUrl: utilities
+      type: '0'
+      url: utilities
+    7f06b917-5895-4737-822f-bf95fe74e523:
+      currLabel: SEO
+      customIcon: null
+      enabled: '1'
+      handle: seo
+      icon: /home/forge/beta.johnjflynn.net/vendor/ether/seo/src/icon-mask.svg
+      layoutId: '1'
+      newWindow: '0'
+      order: '5'
+      prevLabel: SEO
+      prevUrl: seo
+      type: '0'
+      url: seo
+    82031acf-c600-4410-a7f7-2fe2b9e10edb:
+      currLabel: Entries
+      customIcon: null
+      enabled: '1'
+      handle: entries
+      icon: section
+      layoutId: '1'
+      newWindow: '0'
+      order: '3'
+      prevLabel: Entries
+      prevUrl: entries
+      type: '0'
+      url: entries
+    86e0ca7e-4338-409f-8f64-3d60f93dfcef:
+      currLabel: Assets
+      customIcon: null
+      enabled: '1'
+      handle: assets
+      icon: assets
+      layoutId: '1'
+      newWindow: '0'
+      order: '4'
+      prevLabel: Assets
+      prevUrl: assets
+      type: '0'
+      url: assets
+    92359a3e-a380-4d71-a300-b34a8b3cf1f6:
+      currLabel: Globals
+      customIcon: null
+      enabled: '1'
+      handle: globals
+      icon: globe
+      layoutId: '1'
+      newWindow: '0'
+      order: '4'
+      prevLabel: Globals
+      prevUrl: globals
+      type: '0'
+      url: globals
+    af2ed2fb-a372-4e9f-80ff-9fbb7091378f:
+      currLabel: Homepage
+      customIcon: null
+      enabled: '1'
+      handle: homepage
+      icon: null
+      layoutId: '1'
+      newWindow: '0'
+      order: '2'
+      prevLabel: Homepage
+      prevUrl: /entries/homepage
+      type: manual
+      url: /admin/entries/homepage/3-homepage
+    d3299f47-5e2c-4fcd-a4db-c7af586f59d1:
+      currLabel: 'Plugin Store'
+      customIcon: null
+      enabled: '1'
+      handle: plugin-store
+      icon: plugin
+      layoutId: '1'
+      newWindow: '0'
+      order: '8'
+      prevLabel: 'Plugin Store'
+      prevUrl: plugin-store
+      type: '0'
+      url: plugin-store
+    d98773b1-303a-4a53-ad45-c28b20369e05:
+      currLabel: Dashboard
+      customIcon: null
+      enabled: '1'
+      handle: dashboard
+      icon: gauge
+      layoutId: '1'
+      newWindow: '0'
+      order: '1'
+      prevLabel: Dashboard
+      prevUrl: dashboard
+      type: '0'
+      url: dashboard
+    ff9c6992-a0a0-4d5c-9051-2140e4e4880d:
+      currLabel: Categories
+      customIcon: null
+      enabled: '1'
+      handle: categories
+      icon: categories
+      layoutId: '1'
+      newWindow: '0'
+      order: '3'
+      prevLabel: Categories
+      prevUrl: categories
+      type: '0'
+      url: categories
+dateModified: 1582299327
+email:
+  fromEmail: JJimmyFlynn@gmail.com
+  fromName: JohnJFlynn
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  2eca9b7d-c919-4178-b23f-742837bdc05a:
+    name: Homepage
+  502cea6f-b329-4f5a-9c51-f03e6f23163f:
+    name: Portfolio
+  64f1ce6e-3aed-4846-baeb-7a69edab6558:
+    name: Header
+  784cbcd1-d02f-4aab-a82b-13bcd02a4d0b:
+    name: Common
+fields:
+  152ffa73-8e4d-4479-8163-4b2615b92f59:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: heroTitle
+    instructions: ''
+    name: 'Hero Title'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  435c7f33-e768-448e-87ed-8d9134357c81:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: aboutMeHeading
+    instructions: ''
+    name: 'About Me Heading'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  53be00a5-a83e-4dee-842b-ea253605d04b:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: wordpressSkillCopy
+    instructions: ''
+    name: 'WordPress Skill Copy'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  5eb38a61-80b1-40a0-9d76-3f1b5430c87f:
+    contentColumnType: string(255)
+    fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+    handle: projectCodeLink
+    instructions: ''
+    name: 'Project Code Link'
+    searchable: true
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  6207bd85-012b-427e-8c97-e242a026348b:
+    contentColumnType: text
+    fieldGroup: 64f1ce6e-3aed-4846-baeb-7a69edab6558
+    handle: siteTitle
+    instructions: ''
+    name: 'Site Title'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6b284bf3-96a7-420a-bf24-343ec3578b73:
+    contentColumnType: text
+    fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+    handle: description
+    instructions: ''
+    name: Description
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6b530948-c709-4133-b20a-626f755326f5:
+    contentColumnType: text
+    fieldGroup: 784cbcd1-d02f-4aab-a82b-13bcd02a4d0b
+    handle: seo
+    instructions: ''
+    name: SEO
+    searchable: true
+    settings:
+      description: null
+      hideSocial: ''
+      robots:
+        - noindex
+        - nofollow
+        - noarchive
+        - nosnippet
+        - notranslate
+        - noimageindex
+      socialImage: ''
+      suffixAsPrefix: ''
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - template
+              - '{title}'
+            -
+              - locked
+              - false
+      titleSuffix: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: ether\seo\fields\SeoField
+  78898be2-9fab-483c-9063-c53d0f339920:
+    contentColumnType: string
+    fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Add an image'
+      singleUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: '1'
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  8ca281a7-576c-4e0b-8eeb-5e1e7bcaa3b7:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: aboutMeCopy
+    instructions: ''
+    name: 'About Me Copy'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  8d107c75-10b2-49ca-972c-5a37a243c9cc:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: heroSubTitle
+    instructions: ''
+    name: 'Hero Sub-Title'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  90d286fe-a8e3-40f3-b973-3c8185e0c821:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: workHeading
+    instructions: ''
+    name: 'Work Heading'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9cc350ac-4753-4489-b49b-0e285d596baf:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: skillsListSkills
+    instructions: ''
+    name: 'Skills List Skills'
+    searchable: true
+    settings:
+      addRowLabel: 'Add a skill'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Skill Name'
+                -
+                  - handle
+                  - skillName
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Skill Tooltip'
+                -
+                  - handle
+                  - skillTooltip
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+      defaults:
+        __assoc__:
+          -
+            - row1
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+                -
+                  - col2
+                  - ''
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  aae1deda-f1c2-4e0a-ac26-2ca34da41be3:
+    contentColumnType: string(255)
+    fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+    handle: projectLink
+    instructions: ''
+    name: 'Project Link'
+    searchable: true
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  b4aef2be-9255-47dc-8cdd-447537d2b910:
+    contentColumnType: string
+    fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+    handle: category
+    instructions: ''
+    name: Category
+    searchable: true
+    settings:
+      branchLimit: '1'
+      limit: null
+      localizeRelations: false
+      selectionLabel: ''
+      source: 'group:79c1d31d-a90e-47f5-87e4-6041c3569846'
+      sources: '*'
+      targetSiteId: null
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Categories
+  b6e5862f-69be-42b2-87b6-34b9ae50d36c:
+    contentColumnType: text
+    fieldGroup: 64f1ce6e-3aed-4846-baeb-7a69edab6558
+    handle: skillsScroller
+    instructions: ''
+    name: 'Skills Scroller'
+    searchable: true
+    settings:
+      addRowLabel: 'Add a skill'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Skill Name'
+                -
+                  - handle
+                  - skillName
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        __assoc__:
+          -
+            - row1
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  b73bc268-3c60-4f68-b01c-c1f78495ac0a:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: shopifySkillCopy
+    instructions: ''
+    name: 'Shopify Skill Copy'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  ef54f9fc-18aa-4b10-9a74-7ce95a4c8af9:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: heroSkillsList
+    instructions: ''
+    name: 'Hero Skills List'
+    searchable: true
+    settings:
+      addRowLabel: 'Add a skill'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Skill Name'
+                -
+                  - handle
+                  - skillName
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        __assoc__:
+          -
+            - row1
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+      maxRows: '3'
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  efac94ae-c2c8-4b53-bc37-d6d1c319be75:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: skillsListHeading
+    instructions: ''
+    name: 'Skills List Heading'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+globalSets:
+  c6456822-0dc1-4aa2-8d57-3acf5f2a07ef:
+    fieldLayouts:
+      74e59197-37bf-4539-b1cd-3e97266eedd3:
+        tabs:
+          -
+            fields:
+              6207bd85-012b-427e-8c97-e242a026348b:
+                required: false
+                sortOrder: 1
+              b6e5862f-69be-42b2-87b6-34b9ae50d36c:
+                required: false
+                sortOrder: 2
+            name: General
+            sortOrder: 1
+    handle: headerSettings
+    name: 'Header Settings'
+plugins:
+  admin-bar:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 3.1.0
+    settings:
+      customCss: ''
+      customLinks:
+        -
+          adminOnly: ''
+          linkLabel: ''
+          linkUrl: ''
+      displayDashboardLink: true
+      displayDefaultEditSection: true
+      displayEditAuthor: true
+      displayEditDate: true
+      displayGreeting: true
+      displayLogout: true
+      displayRevisionNote: true
+      displaySettingsLink: true
+      enableMobileMenu: true
+      widgets:
+        admin-bar_edit-links: '1'
+  copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.0.4
+    settings: null
+  imager:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.0.0
+    settings: null
+  mix:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings:
+      assetPath: dist
+      publicPath: web
+  redactor:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.3.0
+    settings: null
+  seo:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 3.1.0
+    settings:
+      metaTemplate: ''
+      robots:
+        - noindex
+        - nofollow
+        - noarchive
+        - nosnippet
+        - notranslate
+        - noimageindex
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ \".xml\") }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.general.devMode %}\r\n\r\n{# Disallow access to everything when in devMode #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage: ''
+      titleSuffix: ''
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+sections:
+  0c7536fe-d210-4c25-b286-ef8b7260b95e:
+    enableVersioning: true
+    entryTypes:
+      77232c91-c326-4586-a3fb-5973a9843126:
+        fieldLayouts:
+          50286095-fb97-41d0-bc82-8f6d8c283614:
+            tabs:
+              -
+                fields:
+                  152ffa73-8e4d-4479-8163-4b2615b92f59:
+                    required: true
+                    sortOrder: 1
+                  8d107c75-10b2-49ca-972c-5a37a243c9cc:
+                    required: true
+                    sortOrder: 2
+                  ef54f9fc-18aa-4b10-9a74-7ce95a4c8af9:
+                    required: true
+                    sortOrder: 3
+                name: 'Hero Area'
+                sortOrder: 1
+              -
+                fields:
+                  435c7f33-e768-448e-87ed-8d9134357c81:
+                    required: true
+                    sortOrder: 1
+                  8ca281a7-576c-4e0b-8eeb-5e1e7bcaa3b7:
+                    required: true
+                    sortOrder: 2
+                name: 'About Me Area'
+                sortOrder: 2
+              -
+                fields:
+                  53be00a5-a83e-4dee-842b-ea253605d04b:
+                    required: true
+                    sortOrder: 2
+                  b73bc268-3c60-4f68-b01c-c1f78495ac0a:
+                    required: true
+                    sortOrder: 1
+                name: 'Core Skills Area'
+                sortOrder: 3
+              -
+                fields:
+                  9cc350ac-4753-4489-b49b-0e285d596baf:
+                    required: false
+                    sortOrder: 2
+                  efac94ae-c2c8-4b53-bc37-d6d1c319be75:
+                    required: false
+                    sortOrder: 1
+                name: 'Skills List Area'
+                sortOrder: 4
+              -
+                fields:
+                  90d286fe-a8e3-40f3-b973-3c8185e0c821:
+                    required: false
+                    sortOrder: 1
+                name: 'Work Showcase'
+                sortOrder: 5
+              -
+                fields:
+                  6b530948-c709-4133-b20a-626f755326f5:
+                    required: false
+                    sortOrder: 1
+                name: SEO
+                sortOrder: 6
+        handle: homepage
+        hasTitleField: false
+        name: Homepage
+        sortOrder: 1
+        titleFormat: Homepage
+        titleLabel: null
+    handle: homepage
+    name: Homepage
+    previewTargets:
+      -
+        label: 'Primary entry page'
+        urlFormat: '{url}'
+    propagationMethod: all
+    siteSettings:
+      3af667cd-f79e-4ed4-b209-421713d485f6:
+        enabledByDefault: true
+        hasUrls: true
+        template: index
+        uriFormat: __home__
+    type: single
+  db8a0203-757e-4f2f-b72a-4782890e0f01:
+    enableVersioning: false
+    entryTypes:
+      2ff5cab0-a543-45b8-b411-bcdbd77a544e:
+        fieldLayouts:
+          ca24ded5-58a7-4b10-b4ed-bf2ee6e5d386:
+            tabs:
+              -
+                fields:
+                  5eb38a61-80b1-40a0-9d76-3f1b5430c87f:
+                    required: false
+                    sortOrder: 5
+                  6b284bf3-96a7-420a-bf24-343ec3578b73:
+                    required: true
+                    sortOrder: 2
+                  78898be2-9fab-483c-9063-c53d0f339920:
+                    required: true
+                    sortOrder: 3
+                  aae1deda-f1c2-4e0a-ac26-2ca34da41be3:
+                    required: false
+                    sortOrder: 4
+                  b4aef2be-9255-47dc-8cdd-447537d2b910:
+                    required: true
+                    sortOrder: 1
+                name: Content
+                sortOrder: 1
+        handle: portfolio
+        hasTitleField: true
+        name: Portfolio
+        sortOrder: 1
+        titleFormat: null
+        titleLabel: Title
+    handle: portfolio
+    name: Portfolio
+    previewTargets: null
+    propagationMethod: all
+    siteSettings:
+      3af667cd-f79e-4ed4-b209-421713d485f6:
+        enabledByDefault: true
+        hasUrls: false
+        template: null
+        uriFormat: null
+    type: channel
+siteGroups:
+  3cd533da-c275-4fae-82aa-65b1f3057475:
+    name: JohnJFlynn
+sites:
+  3af667cd-f79e-4ed4-b209-421713d485f6:
+    baseUrl: '@web/'
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: JohnJFlynn
+    primary: true
+    siteGroup: 3cd533da-c275-4fae-82aa-65b1f3057475
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: JohnJFlynn
+  schemaVersion: 3.4.9
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
+volumes:
+  96aae4a6-7ecf-4c62-bd48-416cebc9c2b9:
+    handle: portfolioImages
+    hasUrls: true
+    name: 'Portfolio Images'
+    settings:
+      path: '@webroot/assets/images/portfolio'
+    sortOrder: 1
+    type: craft\volumes\Local
+    url: '@web/assets/images/portfolio'

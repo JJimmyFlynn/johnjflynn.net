@@ -27,6 +27,8 @@ return [
         'securityKey' => getenv('SECURITY_KEY'),
 
         'allowUpdates' => false,
+
+        'useProjectConfigFile' => true,
     ],
 
     // Dev environment settings
@@ -47,11 +49,14 @@ return [
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
+
+        'allowAdminChanges' => false
     ],
 
     // Production environment settings
     'production' => [
         // Base site URL
         'siteUrl' => 'https://johnjflynn.net',
+        'allowAdminChanges' => false
     ],
 ];
