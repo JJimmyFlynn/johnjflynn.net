@@ -1,16 +1,13 @@
-import '../styles/main.scss';
+import '../styles/main.scss'
 
-import Vue from 'vue';
-import '../../node_modules/lazysizes/plugins/respimg/ls.respimg';
-import 'lazysizes';
+import Vue from 'vue'
+import '../../node_modules/lazysizes/plugins/respimg/ls.respimg'
+import 'lazysizes'
 
-import './modules/work-slider';
-import './modules/descriptor-list';
-import test from './test.vue';
+import './modules/work-slider'
+import './modules/descriptor-list'
 
+// eslint-disable-next-line
 new Vue({
-  el: '#app',
-  components: {
-    test,
-  }
+  el: '#app'
 })
