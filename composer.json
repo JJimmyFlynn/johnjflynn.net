@@ -30,6 +30,11 @@
     "ether/seo": "3.6.3",
     "nystudio107/craft-twigpack": "1.1.14"
   },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
   "config": {
     "optimize-autoloader": true,
     "platform": {
