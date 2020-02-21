@@ -56,7 +56,7 @@ return [
     // Production environment settings
     'production' => [
         // Base site URL
-        'siteUrl' => 'https://johnjflynn.net',
+        'siteUrl' => 'https://www.johnjflynn.net',
         'allowAdminChanges' => false,
         'allowUpdates'      => false
     ],
