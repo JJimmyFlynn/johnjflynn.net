@@ -147,7 +147,7 @@ cp-nav:
       prevUrl: categories
       type: '0'
       url: categories
-dateModified: 1582316967
+dateModified: 1582331876
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
@@ -785,15 +785,17 @@ sections:
         titleLabel: Title
     handle: portfolio
     name: Portfolio
-    previewTargets: null
     propagationMethod: all
     siteSettings:
       3af667cd-f79e-4ed4-b209-421713d485f6:
         enabledByDefault: true
         hasUrls: false
         template: null
-        uriFormat: null
-    type: channel
+        uriFormat: ''
+    structure:
+      maxLevels: 1
+      uid: 12c1a361-2ee0-48dd-a615-4953167f3168
+    type: structure
 siteGroups:
   3cd533da-c275-4fae-82aa-65b1f3057475:
     name: JohnJFlynn
