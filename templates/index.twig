@@ -12,14 +12,14 @@
     'copy': entry.aboutMeCopy
   } %}
 
-  {% include 'modules/core-skills' with {
-    'wordpressCopy': entry.wordpressSkillCopy,
-    'shopifyCopy': entry.shopifySkillCopy
-  } %}
-
   {% include 'modules/skills-listing' with {
     'heading': entry.skillsListHeading,
     'skillsList': entry.skillsListSkills
+  } %}
+
+  {% include 'modules/core-skills' with {
+    'wordpressCopy': entry.wordpressSkillCopy,
+    'shopifyCopy': entry.shopifySkillCopy
   } %}
 
   {% include 'modules/work' with {

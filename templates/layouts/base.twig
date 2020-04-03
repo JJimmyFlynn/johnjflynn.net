@@ -15,12 +15,11 @@
       {% endblock %}
     </header>
 
-    <main role="main" class="main" id="app">
+    <main role="main" class="main">
       {% block content %}
       {% endblock %}
     </main>
 
-  {#<script src="{{ mix('scripts/main.js') }}"></script>#}
   {{ craft.twigpack.includeJsModule("main.js", true) }}
 
     {# Output additional code depending on environment #}
