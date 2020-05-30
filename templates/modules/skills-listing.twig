@@ -15,12 +15,10 @@
     {% if skillsList|length %}
       <ul class="m-skills-listing__list-wrap u-bare-list">
         {% for skill in skillsList %}
-          <li class="m-skills-listing__item{{ skill.skillTooltip ? ' m-skills-listing__item--has-popup' : '' }}">
-            {% if skill.skillTooltip %}
-              <aside class="c-tooltip">
-                {{ skill.skillTooltip }}
-              </aside>
-            {% endif %}
+          <li
+            class="m-skills-listing__item{{ skill.skillTooltip ? ' m-skills-listing__item--has-popup' : '' }}"
+            {% if skill.skillTooltip %}data-tippy-content="{{ skill.skillTooltip }}"{% endif %}
+          >
             {{ svgs.svgs('plus', 'm-skills-listing__icon') }}{{ skill.skillName }}
           </li>
         {% endfor %}

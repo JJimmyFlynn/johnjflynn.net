@@ -147,7 +147,7 @@ cp-nav:
       prevUrl: categories
       type: '0'
       url: categories
-dateModified: 1585163013
+dateModified: 1590862575
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
@@ -464,6 +464,29 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Categories
+  b52a3c47-77c2-4b77-a03b-50b692ead9e9:
+    contentColumnType: text
+    fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+    handle: craftSkillCopy
+    instructions: ''
+    name: 'Craft Skill Copy'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
   b6e5862f-69be-42b2-87b6-34b9ae50d36c:
     contentColumnType: text
     fieldGroup: 64f1ce6e-3aed-4846-baeb-7a69edab6558
@@ -701,6 +724,9 @@ sections:
                 fields:
                   53be00a5-a83e-4dee-842b-ea253605d04b:
                     required: true
+                    sortOrder: 3
+                  b52a3c47-77c2-4b77-a03b-50b692ead9e9:
+                    required: true
                     sortOrder: 2
                   b73bc268-3c60-4f68-b01c-c1f78495ac0a:
                     required: true
@@ -736,7 +762,7 @@ sections:
         name: Homepage
         sortOrder: 1
         titleFormat: Homepage
-        titleLabel: null
+        titleLabel: ''
     handle: homepage
     name: Homepage
     previewTargets:

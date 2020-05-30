@@ -5,3 +5,4 @@ import 'lazysizes'
 
 import './modules/work-slider'
 import './modules/descriptor-list'
+import './modules/tooltips'

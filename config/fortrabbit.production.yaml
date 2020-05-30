@@ -8,3 +8,4 @@ before:
 after:
     code/down:
         - 'php craft migrate/all'
+        - 'php craft project-config/sync'

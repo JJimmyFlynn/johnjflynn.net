@@ -1,15 +1,11 @@
 //--------------------------------------------------------------
 // Tooltip Styles
 //--------------------------------------------------------------
-.c-tooltip {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  z-index: $z-index-modal;
-  display: none;
+.tippy-box[data-theme~='jjf'] {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 0.8rem -0.3rem $color-black;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: $color-black;
 }

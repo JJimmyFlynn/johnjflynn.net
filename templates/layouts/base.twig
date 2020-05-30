@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
-
+{% cache %}
   <head>
     {% block head %}
       {% include 'partials/head.twig' %}
@@ -33,5 +33,7 @@
   {% endif %}
 
   </body>
+
+{% endcache %}
 
 </html>
