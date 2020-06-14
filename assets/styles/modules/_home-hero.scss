@@ -28,7 +28,7 @@
   @include breakpoint($small--up) {
     display: initial;
   }
-  
+
   svg {
     width: 100%;
     height: auto;
@@ -57,7 +57,6 @@
 // Sub Heading
 //-----------------------------------------
 .m-home-hero__sub {
-  margin-bottom: 0.5rem;
   font-size: 2rem;
 }
 
@@ -65,10 +64,23 @@
 // Tech List
 //-----------------------------------------
 .m-home-hero__tech-list {
+  position: relative;
   display: flex;
   justify-content: center;
-  color: $color-red;
+  margin-top: 1rem;
+  padding-top: 1rem;
   font-size: 1.4rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4rem;
+    height: 0.2rem;
+    background-color: $color-red;
+    transform: translateX(-50%);
+  }
 }
 
 .m-home-hero__tech-list-item {
