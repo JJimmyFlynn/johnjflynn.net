@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'Skibutlers Craft',
+  name: 'John Flynn Dot Net',
   paths: {
     src: {
       base: './assets/',
@@ -16,9 +16,9 @@ module.exports = {
     main: 'main.js'
   },
   urls: {
-    live: 'https://example.com/',
-    local: 'http://example.test/',
-    critical: 'http://example.test/',
+    live: 'https://johnjflynn.net/',
+    local: 'http://johnjflynn.test/',
+    critical: 'https://johnjflynn.net/',
     publicPath: () => process.env.PUBLIC_PATH || "/dist/"
   }
 }
