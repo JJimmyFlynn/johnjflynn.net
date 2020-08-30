@@ -68,7 +68,7 @@
 }
 
 //-----------------------------------------
-// Slider Links 
+// Slider Links
 //-----------------------------------------
 .c-slider__link {
   margin-bottom: $gutter--small;
@@ -78,12 +78,12 @@
 // Flickity Override
 //-----------------------------------------
 .flickity-page-dots {
-  bottom: -3rem;
+  bottom: -4rem;
 }
 
 .flickity-page-dots .dot {
   width: 5rem;
-  height: 0.8rem;
+  height: 1.5rem;
   border-radius: 0;
   background-color: $color-red;
   transition: opacity 0.15s ease-in-out;
