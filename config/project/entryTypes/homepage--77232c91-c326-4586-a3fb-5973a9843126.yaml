@@ -4,77 +4,156 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
             instructions: null
-            label: ''
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
           -
             fieldUid: 152ffa73-8e4d-4479-8163-4b2615b92f59
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 8d107c75-10b2-49ca-972c-5a37a243c9cc
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: ef54f9fc-18aa-4b10-9a74-7ce95a4c8af9
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Hero Area'
         sortOrder: 1
       -
         elements:
           -
             fieldUid: 435c7f33-e768-448e-87ed-8d9134357c81
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 8ca281a7-576c-4e0b-8eeb-5e1e7bcaa3b7
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'About Me Area'
         sortOrder: 2
       -
         elements:
           -
             fieldUid: b73bc268-3c60-4f68-b01c-c1f78495ac0a
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: b52a3c47-77c2-4b77-a03b-50b692ead9e9
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 53be00a5-a83e-4dee-842b-ea253605d04b
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Core Skills Area'
         sortOrder: 3
       -
         elements:
           -
             fieldUid: efac94ae-c2c8-4b53-bc37-d6d1c319be75
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 9cc350ac-4753-4489-b49b-0e285d596baf
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Skills List Area'
         sortOrder: 4
       -
         elements:
           -
             fieldUid: 90d286fe-a8e3-40f3-b973-3c8185e0c821
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Work Showcase'
         sortOrder: 5
       -
         elements:
           -
             fieldUid: 6b530948-c709-4133-b20a-626f755326f5
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: SEO
         sortOrder: 6
 handle: homepage
@@ -83,3 +162,5 @@ name: Homepage
 section: 0c7536fe-d210-4c25-b286-ef8b7260b95e
 sortOrder: 1
 titleFormat: Homepage
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

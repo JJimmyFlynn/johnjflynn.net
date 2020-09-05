@@ -42,17 +42,14 @@ settings:
               - type
               - multiline
   defaults:
-    __assoc__:
-      -
-        - row1
+    -
+      __assoc__:
         -
-          __assoc__:
-            -
-              - col1
-              - ''
-            -
-              - col2
-              - ''
+          - col1
+          - ''
+        -
+          - col2
+          - ''
   maxRows: ''
   minRows: ''
 translationKeyFormat: null

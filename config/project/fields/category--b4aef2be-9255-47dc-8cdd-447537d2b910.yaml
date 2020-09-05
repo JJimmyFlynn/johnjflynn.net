@@ -5,13 +5,18 @@ instructions: ''
 name: Category
 searchable: true
 settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: '1'
   limit: null
   localizeRelations: false
   selectionLabel: ''
+  showSiteMenu: true
   source: 'group:79c1d31d-a90e-47f5-87e4-6041c3569846'
   sources: '*'
   targetSiteId: null
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

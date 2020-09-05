@@ -5,6 +5,7 @@ instructions: ''
 name: Image
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
   defaultUploadLocationSubpath: ''
@@ -12,12 +13,16 @@ settings:
   localizeRelations: false
   restrictFiles: ''
   selectionLabel: 'Add an image'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: '1'
+  useSingleFolder: true
+  validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null
 translationMethod: site

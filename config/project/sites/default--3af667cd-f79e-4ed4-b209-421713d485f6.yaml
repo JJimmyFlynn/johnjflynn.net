@@ -1,4 +1,5 @@
-baseUrl: '@web/'
+baseUrl: 'http://johnjflynn.test'
+enabled: true
 handle: default
 hasUrls: true
 language: en-US

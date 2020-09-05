@@ -4,29 +4,73 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
             instructions: null
-            label: Title
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
           -
             fieldUid: b4aef2be-9255-47dc-8cdd-447537d2b910
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 6b284bf3-96a7-420a-bf24-343ec3578b73
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 78898be2-9fab-483c-9063-c53d0f339920
-            required: true
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: aae1deda-f1c2-4e0a-ac26-2ca34da41be3
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 5eb38a61-80b1-40a0-9d76-3f1b5430c87f
-            required: false
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: portfolio
@@ -35,3 +79,5 @@ name: Portfolio
 section: db8a0203-757e-4f2f-b72a-4782890e0f01
 sortOrder: 1
 titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

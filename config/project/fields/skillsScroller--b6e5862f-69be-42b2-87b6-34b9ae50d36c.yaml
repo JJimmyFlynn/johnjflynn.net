@@ -26,14 +26,11 @@ settings:
               - type
               - singleline
   defaults:
-    __assoc__:
-      -
-        - row1
+    -
+      __assoc__:
         -
-          __assoc__:
-            -
-              - col1
-              - ''
+          - col1
+          - ''
   maxRows: ''
   minRows: ''
 translationKeyFormat: null

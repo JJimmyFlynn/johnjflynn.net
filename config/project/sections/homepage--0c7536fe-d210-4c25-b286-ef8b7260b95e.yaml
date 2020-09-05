@@ -3,8 +3,13 @@ handle: homepage
 name: Homepage
 previewTargets:
   -
-    label: 'Primary entry page'
-    urlFormat: '{url}'
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   3af667cd-f79e-4ed4-b209-421713d485f6:

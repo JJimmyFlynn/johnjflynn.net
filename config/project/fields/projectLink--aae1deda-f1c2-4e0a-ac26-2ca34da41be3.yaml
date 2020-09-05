@@ -4,6 +4,9 @@ handle: projectLink
 instructions: ''
 name: 'Project Link'
 searchable: true
+settings:
+  maxLength: 255
+  placeholder: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Url

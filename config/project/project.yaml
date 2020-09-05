@@ -1,12 +1,8 @@
-dateModified: 1599267502
+dateModified: 1599268176
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 plugins:
   admin-bar:
     enabled: '1'
