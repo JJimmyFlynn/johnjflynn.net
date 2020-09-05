@@ -1,0 +1,85 @@
+dateModified: 1599267502
+email:
+  fromEmail: JJimmyFlynn@gmail.com
+  fromName: JohnJFlynn
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+plugins:
+  admin-bar:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 3.1.0
+    settings:
+      customCss: ''
+      customLinks:
+        -
+          adminOnly: ''
+          linkLabel: ''
+          linkUrl: ''
+      displayDashboardLink: true
+      displayDefaultEditSection: true
+      displayEditAuthor: true
+      displayEditDate: true
+      displayGreeting: true
+      displayLogout: true
+      displayRevisionNote: true
+      displaySettingsLink: true
+      enableMobileMenu: true
+      widgets:
+        admin-bar_edit-links: '1'
+  copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  imager:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.0.0
+    settings: null
+  redactor:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.3.0
+    settings: null
+  seo:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 3.1.1
+    settings:
+      metaTemplate: ''
+      robots:
+        - noindex
+        - nofollow
+        - noarchive
+        - nosnippet
+        - notranslate
+        - noimageindex
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ \".xml\") }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.general.devMode %}\r\n\r\n{# Disallow access to everything when in devMode #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage: ''
+      titleSuffix: ''
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+system:
+  edition: solo
+  live: true
+  name: JohnJFlynn
+  schemaVersion: 3.5.13
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

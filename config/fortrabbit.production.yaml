@@ -5,6 +5,8 @@ asset_path: web/assets
 before:
     code/up:
         - 'echo  "Script example: " $(git rev-parse HEAD)'
+        - 'php craft clear-caches/compiled-templates'
+        - 'php craft clear-caches/twigpack-manifest-cache'
 after:
     code/down:
         - 'php craft migrate/all'

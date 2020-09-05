@@ -1,0 +1,14 @@
+enableVersioning: false
+handle: portfolio
+name: Portfolio
+propagationMethod: all
+siteSettings:
+  3af667cd-f79e-4ed4-b209-421713d485f6:
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: ''
+structure:
+  maxLevels: 1
+  uid: 12c1a361-2ee0-48dd-a615-4953167f3168
+type: structure

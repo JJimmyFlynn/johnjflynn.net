@@ -1,0 +1,8 @@
+handle: portfolioImages
+hasUrls: true
+name: 'Portfolio Images'
+settings:
+  path: '@webroot/assets/images/portfolio'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@web/assets/images/portfolio'

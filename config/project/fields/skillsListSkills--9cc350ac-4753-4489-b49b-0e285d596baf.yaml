@@ -1,0 +1,60 @@
+contentColumnType: text
+fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+handle: skillsListSkills
+instructions: ''
+name: 'Skills List Skills'
+searchable: true
+settings:
+  addRowLabel: 'Add a skill'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Skill Name'
+            -
+              - handle
+              - skillName
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Skill Tooltip'
+            -
+              - handle
+              - skillTooltip
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+  defaults:
+    __assoc__:
+      -
+        - row1
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

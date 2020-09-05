@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+handle: heroTitle
+instructions: ''
+name: 'Hero Title'
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

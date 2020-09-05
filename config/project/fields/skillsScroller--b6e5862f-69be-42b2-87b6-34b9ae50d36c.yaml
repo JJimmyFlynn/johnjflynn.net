@@ -1,0 +1,41 @@
+contentColumnType: text
+fieldGroup: 64f1ce6e-3aed-4846-baeb-7a69edab6558
+handle: skillsScroller
+instructions: ''
+name: 'Skills Scroller'
+searchable: true
+settings:
+  addRowLabel: 'Add a skill'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Skill Name'
+            -
+              - handle
+              - skillName
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    __assoc__:
+      -
+        - row1
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

@@ -1,0 +1,9 @@
+contentColumnType: string(255)
+fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+handle: projectLink
+instructions: ''
+name: 'Project Link'
+searchable: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

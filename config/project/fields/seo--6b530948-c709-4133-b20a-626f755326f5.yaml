@@ -1,0 +1,34 @@
+contentColumnType: text
+fieldGroup: 784cbcd1-d02f-4aab-a82b-13bcd02a4d0b
+handle: seo
+instructions: ''
+name: SEO
+searchable: true
+settings:
+  description: null
+  hideSocial: ''
+  robots:
+    - noindex
+    - nofollow
+    - noarchive
+    - nosnippet
+    - notranslate
+    - noimageindex
+  socialImage: ''
+  suffixAsPrefix: ''
+  title:
+    -
+      __assoc__:
+        -
+          - key
+          - '1'
+        -
+          - template
+          - '{title}'
+        -
+          - locked
+          - false
+  titleSuffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: ether\seo\fields\SeoField

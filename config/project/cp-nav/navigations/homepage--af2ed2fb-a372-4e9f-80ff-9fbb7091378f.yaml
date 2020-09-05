@@ -1,0 +1,12 @@
+currLabel: Homepage
+customIcon: null
+enabled: '1'
+handle: homepage
+icon: null
+layoutId: '1'
+newWindow: '0'
+order: '2'
+prevLabel: Homepage
+prevUrl: /entries/homepage
+type: manual
+url: /admin/entries/homepage/3-homepage

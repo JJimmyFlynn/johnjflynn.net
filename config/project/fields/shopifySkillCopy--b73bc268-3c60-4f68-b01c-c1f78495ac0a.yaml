@@ -1,0 +1,19 @@
+contentColumnType: text
+fieldGroup: 2eca9b7d-c919-4178-b23f-742837bdc05a
+handle: shopifySkillCopy
+instructions: ''
+name: 'Shopify Skill Copy'
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Simple.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

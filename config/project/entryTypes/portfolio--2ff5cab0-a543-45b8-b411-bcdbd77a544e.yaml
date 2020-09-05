@@ -1,0 +1,37 @@
+fieldLayouts:
+  ca24ded5-58a7-4b10-b4ed-bf2ee6e5d386:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: b4aef2be-9255-47dc-8cdd-447537d2b910
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 6b284bf3-96a7-420a-bf24-343ec3578b73
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 78898be2-9fab-483c-9063-c53d0f339920
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: aae1deda-f1c2-4e0a-ac26-2ca34da41be3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5eb38a61-80b1-40a0-9d76-3f1b5430c87f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Content
+        sortOrder: 1
+handle: portfolio
+hasTitleField: true
+name: Portfolio
+section: db8a0203-757e-4f2f-b72a-4782890e0f01
+sortOrder: 1
+titleFormat: null

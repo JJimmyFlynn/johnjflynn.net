@@ -1,0 +1,12 @@
+currLabel: Entries
+customIcon: null
+enabled: '1'
+handle: entries
+icon: section
+layoutId: '1'
+newWindow: '0'
+order: '3'
+prevLabel: Entries
+prevUrl: entries
+type: '0'
+url: entries
