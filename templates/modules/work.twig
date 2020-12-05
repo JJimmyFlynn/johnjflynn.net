@@ -14,7 +14,7 @@
 
       {# Output each portfolio category as a tab select #}
       {% for category in craft.categories().group('portfolioCategory').all() %}
-        <span class="c-tab-select__tab{{ loop.first ? ' c-tab-select__tab--active' : '' }}" data-slider-index="{{ loop.index }}" data-tab-select-tab>{{ category.title }}</span>
+        <button class="c-tab-select__tab{{ loop.first ? ' c-tab-select__tab--active' : '' }}" data-slider-index="{{ loop.index }}" data-tab-select-tab>{{ category.title }}</button>
       {% endfor %}
 
     </div>
@@ -25,7 +25,7 @@
     {# Create a slider for each portfolio category #}
     {% for category in craft.categories().group('portfolioCategory').all() %}
     {% set currentCategory = category %}
-      <div class="m-work__slider{{ loop.first ? ' m-work__slider--active' : '' }} c-slider" data-slider data-slide-index="{{ loop.index }}">
+      <div class="m-work__slider{{ loop.first ? ' m-work__slider--active' : '' }} c-slider" data-slider data-slide-index="{{ loop.index }}" aria-hidden="{{ loop.first ? "false" : "true" }}">
 
         {# Ourput a slide for each entry in a portfolio category #}
         {% for slide in craft.entries().section('portfolio').relatedTo(currentCategory).with(['image']).all() | reverse %}

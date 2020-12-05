@@ -11,6 +11,7 @@
 // Tab Items
 //-----------------------------------------
 .c-tab-select__tab {
+  @include strip-button;
   margin-right: $gutter;
   border-bottom: 2px solid transparent;
   cursor: pointer;
@@ -19,7 +20,7 @@
   @include breakpoint($small--up) {
     margin-right: $gutter * 2;
   }
-  
+
   &:last-of-type {
     margin-right: 0;
   }

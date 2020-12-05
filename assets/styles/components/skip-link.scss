@@ -1,0 +1,13 @@
+.skip-link {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: $color-black;
+
+  &:focus {
+    @include visually-shown(absolute);
+  }
+}

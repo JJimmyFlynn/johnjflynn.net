@@ -32,6 +32,11 @@
   padding-left: 0;
 }
 
+@mixin strip-button() {
+  background: none;
+  border: none;
+}
+
 @mixin visually-hidden() {
   // sass-lint:disable no-important
   position: absolute !important;

@@ -36,6 +36,8 @@ workSliderSelectTabs.forEach(tab => {
       * Update active slider
       */
     activeSlider.classList.remove('m-work__slider--active')
+    activeSlider.setAttribute('aria-hidden', 'true')
     targetSlider.classList.add('m-work__slider--active')
+    targetSlider.setAttribute('aria-hidden', 'false')
   })
 })
