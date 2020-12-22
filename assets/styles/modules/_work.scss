@@ -4,15 +4,30 @@
 .m-work__wrapper {
   position: relative;
   margin-top: $gutter--large;
+  overflow: hidden;
 }
 
 .m-work__group {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
 }
 
 //-----------------------------------------
 // States
 //-----------------------------------------
 .m-work__group[data-active] {
-  display: block;
+  position: static;
+  opacity: 1;
+  z-index: 0;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 500ms;
 }
