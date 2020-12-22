@@ -1,0 +1,44 @@
+//--------------------------------------------------------------
+// Styles for Work Items
+//--------------------------------------------------------------
+
+//-----------------------------------------
+//  General
+//-----------------------------------------
+.c-work-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  grid-gap: $gutter--large;
+  background-color: white;
+  box-shadow: 0.3rem 0.6rem 1rem rgba(black, 0.04);
+  border-radius: 0.4rem;
+}
+
+.c-work-item + .c-work-item {
+  margin-top: $gutter--large;
+}
+
+.c-work-item__content-block {
+  padding: $gutter--large $gutter--large $gutter--large 0;
+}
+
+//-----------------------------------------
+// Content Heading
+//-----------------------------------------
+.c-work-item__heading {
+  margin: 0 0 1.5rem;
+}
+
+//-----------------------------------------
+// Content Copy
+//-----------------------------------------
+.c-work-item__copy {
+  margin-bottom: $gutter;
+}
+
+//-----------------------------------------
+// Links
+//-----------------------------------------
+.c-work-item__link + .c-work-item__link {
+  margin-top: $gutter--small;
+}

@@ -12,6 +12,7 @@
 //-----------------------------------------
 .c-tab-select__tab {
   @include strip-button;
+  position: relative;
   margin-right: $gutter;
   border-bottom: 2px solid transparent;
   cursor: pointer;
@@ -26,10 +27,25 @@
   }
 }
 
+
+//-----------------------------------------
+// Tab Decoration
+//-----------------------------------------
+.c-tab-select__decoration {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  height: 0.3rem;
+  background-color: $color-red;
+  opacity: 0;
+}
+
 //-----------------------------------------
 // Active + Color State
 //-----------------------------------------
-.c-tab-select__tab--active,
-.c-tab-select__tab:hover {
-  border-color: $color-red;
+.c-tab-select__tab[data-active] {
+  .c-tab-select__decoration {
+    opacity: 1;
+  }
 }
