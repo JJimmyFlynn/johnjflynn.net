@@ -27,9 +27,6 @@
     {% if generalSettings.googleAnalyticsCode is defined %}
       {{ generalSettings.googleAnalyticsCode | raw }}
     {% endif %}
-
-  {% else %}
-    {{ adminbar() }}
   {% endif %}
 
   </body>
