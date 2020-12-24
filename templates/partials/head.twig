@@ -10,8 +10,10 @@ gtag('config', 'UA-36782995-1');
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="{{ siteUrl ~ "fonts/effra-regular.woff2" }}" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="{{ siteUrl ~ "fonts/effra-bold.woff2" }}" as="font" type="font/woff2" crossorigin />
+
 {{ craft.twigpack.includeCssModule("main.css") }}
-<link rel="stylesheet" href="//use.typekit.net/pvf7kdw.css">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,6 +22,18 @@ gtag('config', 'UA-36782995-1');
 <meta name="msapplication-TileColor" content="#2c4d5c">
 <meta name="theme-color" content="#2c4d5c">
 {% hook "seo" %}
+
+{# Font declarations #}
+<style>
+  @font-face { font-family: 'effra'; src: url('/fonts/effra-regular.woff2') format('woff2'),
+  url('/fonts/effra-regular.woff') format('woff'); font-weight: 400; font-style: normal; font-display:
+    swap; }
+
+  @font-face { font-family: 'effra'; src: url('/fonts/effra-bold.woff2') format('woff'),
+  url('/fonts/effra-regular.woff') format('woff'); font-weight: 700; font-style: normal; font-display:
+    swap; }
+</style>
+
 <script>
   document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 </script>
