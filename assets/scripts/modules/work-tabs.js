@@ -2,7 +2,7 @@
 const workSliderSelect = document.querySelector('[data-work-slider-select]')
 const workSliderSelectTabs = workSliderSelect.querySelectorAll('[data-tab-select-tab]')
 
-// FLIP function to flip gallery images between scenes
+// FLIP function to tab decorations
 const flipTabs = (firstEl, lastEl) => {
   // First/Last -- Get info on elements to be flipped
   const firstRect = firstEl.getBoundingClientRect()
@@ -35,9 +35,6 @@ const flipTabs = (firstEl, lastEl) => {
   }
 }
 
-/**
- * Swap slider types on tab clicks
- */
 workSliderSelectTabs.forEach(tab => {
   tab.addEventListener('click', function () {
     const groupIndex = this.getAttribute('data-group-index')
