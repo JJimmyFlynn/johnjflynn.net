@@ -1,8 +1,12 @@
-dateModified: 1599268176
+dateModified: 1638735345
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    96aae4a6-7ecf-4c62-bd48-416cebc9c2b9: 'Portfolio Images' # Portfolio Images
+    c6456822-0dc1-4aa2-8d57-3acf5f2a07ef: 'Header Settings' # Header Settings
 plugins:
   admin-bar:
     enabled: '1'
@@ -30,11 +34,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  imager:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 2.0.0
-    settings: null
+  imager-x:
+    edition: pro
+    enabled: true
+    licenseKey: 6J1KK04D6TU3GX6G8XNUICJ8
+    schemaVersion: 3.0.0
   redactor:
     enabled: '1'
     licenseKey: null
@@ -43,7 +47,7 @@ plugins:
   seo:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 3.1.1
+    schemaVersion: 3.2.0
     settings:
       metaTemplate: ''
       robots:
@@ -58,6 +62,22 @@ plugins:
       sitemapName: sitemap
       socialImage: ''
       titleSuffix: ''
+  servd-asset-storage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.5
+    settings:
+      assetsEnvironment: ''
+      assetsEnvironmentOverwrite: ''
+      cacheClearMode: full
+      clearCachesOnSave: always
+      disableDynamic: ''
+      disableTransforms: ''
+      injectCors: ''
+      projectSlug: ''
+      securityKey: ''
+      suppressWarnings: '1'
+      useLocalVolumes: ''
   twigpack:
     edition: standard
     enabled: true
@@ -71,7 +91,7 @@ system:
   edition: solo
   live: true
   name: JohnJFlynn
-  schemaVersion: 3.5.13
+  schemaVersion: 3.7.8
   timeZone: America/New_York
 users:
   allowPublicRegistration: false

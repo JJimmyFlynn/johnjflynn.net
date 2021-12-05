@@ -19,15 +19,16 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.5.17.1",
+    "craftcms/cms": "3.7.24",
     "vlucas/phpdotenv": "^2.4.0",
-    "craftcms/redactor": "2.8.5",
+    "craftcms/redactor": "2.8.8",
     "wbrowar/adminbar": "3.1.11",
-    "aelvan/imager": "v2.4.0",
     "nystudio107/craft-typogrify": "1.1.18",
-    "ether/seo": "3.6.7",
-    "nystudio107/craft-twigpack": "1.2.7",
-    "fortrabbit/craft-copy": "1.0.0"
+    "ether/seo": "3.7.4",
+    "nystudio107/craft-twigpack": "1.2.15",
+    "fortrabbit/craft-copy": "1.0.7",
+    "servd/craft-asset-storage": "2.4.10",
+    "spacecatninja/imager-x": "v3.5.4"
   },
   "autoload": {
     "psr-4": {

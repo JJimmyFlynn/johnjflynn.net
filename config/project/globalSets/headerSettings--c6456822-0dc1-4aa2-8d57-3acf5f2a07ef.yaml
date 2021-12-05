@@ -25,3 +25,4 @@ fieldLayouts:
         sortOrder: 1
 handle: headerSettings
 name: 'Header Settings'
+sortOrder: 1

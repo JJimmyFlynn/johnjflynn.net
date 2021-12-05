@@ -23,7 +23,7 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\AssetTitleField
             warning: null
             width: 100
         name: Content
@@ -32,7 +32,15 @@ handle: portfolioImages
 hasUrls: true
 name: 'Portfolio Images'
 settings:
-  path: '@webroot/assets/images/portfolio'
+  cdnUrlPattern: ''
+  customSubfolder: ''
+  makeUploadsPublic: true
+  optimisePrefix: ''
+  optimiseUrlPattern: ''
+  projectSlug: ''
+  securityKey: ''
 sortOrder: 1
-type: craft\volumes\Local
-url: '@web/assets/images/portfolio'
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
+type: servd\AssetStorage\Volume
+url: 'https://cdn2.assets-servd.host/'

@@ -7,7 +7,7 @@ searchable: true
 settings:
   allowSelfRelations: false
   allowedKinds: null
-  defaultUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
+  defaultUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9' # Portfolio Images
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
@@ -16,7 +16,7 @@ settings:
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
-  singleUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9'
+  singleUploadLocationSource: 'volume:96aae4a6-7ecf-4c62-bd48-416cebc9c2b9' # Portfolio Images
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
