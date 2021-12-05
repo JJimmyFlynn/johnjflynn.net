@@ -39,7 +39,7 @@ return [
     // Staging environment settings
     'staging' => [
         // Base site URL
-        'siteUrl' => 'https://beta.johnjflynn.net',
+        'siteUrl' => 'https://staging.johnjflynn.net',
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
         'allowAdminChanges' => false
