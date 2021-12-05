@@ -3,7 +3,7 @@ handle: portfolio
 name: Portfolio
 propagationMethod: all
 siteSettings:
-  3af667cd-f79e-4ed4-b209-421713d485f6:
+  3af667cd-f79e-4ed4-b209-421713d485f6: # JohnJFlynn
     enabledByDefault: true
     hasUrls: false
     template: null
