@@ -1,31 +1,31 @@
-{% extends 'layouts/base' %}
+{% extends '_layouts/base' %}
 
 {% block content %}
-	{% include 'modules/home-hero' with {
+	{% include '_modules/home-hero' with {
     'title': entry.heroTitle,
     'subTitle': entry.heroSubTitle,
     'skillsList': entry.heroSkillsList
   } %}
 
-  {% include 'modules/about-me' with {
+  {% include '_modules/about-me' with {
     'heading': entry.aboutMeHeading,
     'copy': entry.aboutMeCopy
   } %}
 
-  {% include 'modules/skills-listing' with {
+  {% include '_modules/skills-listing' with {
     'heading': entry.skillsListHeading,
     'skillsList': entry.skillsListSkills
   } %}
 
-  {% include 'modules/core-skills' with {
+  {% include '_modules/core-skills' with {
     'wordpressCopy': entry.wordpressSkillCopy,
     'craftCopy': entry.craftSkillCopy,
     'shopifyCopy': entry.shopifySkillCopy
   } %}
 
-  {% include 'modules/work' with {
+  {% include '_modules/work' with {
     'heading': entry.workHeading
   } %}
 
-  {% include 'modules/contact' %}
+  {% include '_modules/contact' %}
 {% endblock %}

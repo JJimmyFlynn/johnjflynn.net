@@ -43,7 +43,7 @@
             <div class="c-work-item__block c-work-item__image-block ">
 
               {% set slideImage = slide.image[0] %}
-              {% include 'partials/work-image' with { image: slideImage } %}
+              {% include '_partials/work-image' with { image: slideImage } %}
             </div>
             {# /.c-clider__block #}
             <div class="c-work-item__block c-work-item__content-block">
@@ -52,6 +52,13 @@
                 {{ slide.description | typogrify }}
               </div>
               {# /.c-slider__copy #}
+
+              {% set caseStudy = slide.caseStudyLink.one %}
+              {% if caseStudy|length %}
+                <div class="c-work-item__link">
+                  <a class="c-styled-link" href="{{ caseStudy.url }}">Read Details</a>
+                </div>
+              {% endif %}
 
               {% if slide.projectLink %}
                 <div class="c-work-item__link">

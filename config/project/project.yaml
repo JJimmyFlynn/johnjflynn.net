@@ -1,12 +1,23 @@
-dateModified: 1638746082
+dateModified: 1638921172
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2ff5cab0-a543-45b8-b411-bcdbd77a544e: Portfolio # Portfolio
     3af667cd-f79e-4ed4-b209-421713d485f6: JohnJFlynn # JohnJFlynn
+    3ecb3ea5-33e8-4591-8b88-55143d685317: Text # Text
+    3f46a0a7-5ad4-492b-b4b7-bdde50823f77: 'Case Study Link' # Case Study Link
+    4a9bd924-5286-41f7-a746-63a7cdb4c320: 'Blog Content' # Blog Content
+    5d195f08-e837-4e08-9504-1fd7c557d060: Media # Media
+    8a074c7a-a5f4-4fd3-b490-7cdf070ec6bd: Text # Text
+    53b1357b-f1f4-4f29-be51-cff0916f1587: Images # Images
     96aae4a6-7ecf-4c62-bd48-416cebc9c2b9: 'Portfolio Images' # Portfolio Images
+    351b2d7f-eb97-4608-939d-632858c0c4be: Heading # Heading
+    ad72cd36-126a-4681-ac7b-8bf45e5da129: 'Case Studies' # Case Studies
+    b6a18b8c-5ef1-4c3c-978a-9abdb0dd610d: Default # Default
+    b135dc5d-315d-430a-a85f-7d8d9a6e0e75: 'Alt Text' # Alt Text
     c6456822-0dc1-4aa2-8d57-3acf5f2a07ef: 'Header Settings' # Header Settings
 plugins:
   admin-bar:

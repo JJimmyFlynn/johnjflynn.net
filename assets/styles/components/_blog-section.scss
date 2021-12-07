@@ -1,0 +1,8 @@
+.c-blog-section {
+  margin: clamp-sizes(5, 8) 0;
+
+  &__section-heading {
+    margin: 0;
+    font-size: clamp-sizes(2.8, 5);
+  }
+}

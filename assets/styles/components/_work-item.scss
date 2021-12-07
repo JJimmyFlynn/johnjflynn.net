@@ -22,6 +22,10 @@
   padding: $gutter--large $gutter--large $gutter--large 0;
 }
 
+.c-work-item__image-block img {
+  border-radius: 0;
+}
+
 //-----------------------------------------
 // Content Heading
 //-----------------------------------------

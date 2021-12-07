@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 502cea6f-b329-4f5a-9c51-f03e6f23163f
+handle: caseStudyLink
+instructions: ''
+name: 'Case Study Link'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:ad72cd36-126a-4681-ac7b-8bf45e5da129' # Case Studies
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

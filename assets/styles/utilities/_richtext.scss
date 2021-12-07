@@ -1,0 +1,11 @@
+.richtext {
+  p, li {
+    max-width: 70ch;
+    font-size: clamp-sizes(1.8, 2.4);
+    line-height: 1.6;
+  }
+
+  a {
+    color: $color-red;
+  }
+}

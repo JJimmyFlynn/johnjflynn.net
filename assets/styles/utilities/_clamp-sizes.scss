@@ -1,0 +1,12 @@
+@function clamp-sizes($min-font-size, $max-font-size, $min-viewport: 400, $max-viewport: 1920, $rem-size: 10) {
+
+  $min-width: $min-viewport / $rem-size;
+  $max-width: $max-viewport / $rem-size;
+
+  $slope: ($max-font-size - $min-font-size) / ($max-width - $min-width);
+  $y-intersection: ($min-width * -1) * $slope + $min-font-size;
+
+  $clamp-value: clamp(#{$min-font-size}rem, calc(#{$y-intersection}rem + #{$slope * 100}vw), #{$max-font-size}rem);
+
+  @return $clamp-value;
+}

@@ -1,0 +1,46 @@
+{# ------------------------------------------------------------------------------
+    Generates a responsive image set which is used with lazy sizes
+    to render the image. Generates JPG and WebP (if capable).
+  Parameters:
+    - image {Image Object} The Craft image object
+    - transform {String} The name of the transform to use. Also used to get the name of the Webp transform
+    - imageClasses {string} (optional) Additional classes for the image element
+    - imageWrapperClasses {String} (optional) Additional classes for the wrapper element
+------------------------------------------------------------------------------ #}
+{% set transformName = transform ?? 'default' %}
+{% set webpTransformName = transformName ~ 'Webp' %}
+{% set transformedImages = craft.imagerx.transformImage(image, transformName) %}
+{% set transformedWebpImages = craft.imagerx.transformImage(image, webpTransformName) %}
+
+{# Set aspect ratio for image wrapper padding #}
+{% set aspectRatio = transformedImages[0].getHeight / transformedImages[0].getWidth %}
+{% set aspectRatioString = aspectRatio * 100 ~ "%" %}
+
+{% set maxWidth = transformedImages|last.getWidth %}
+{% set maxHeight = transformedImages|last.getHeight %}
+
+{% set imageClasses = imageClasses is defined and imageClasses ? imageClasses : '' %}
+{% set imageWrapperClasses = imageWrapperClasses is defined and imageWrapperClasses ? imageWrapperClasses : '' %}
+
+<div class="responsive-image-wrapper {{ imageWrapperClasses }}" style="max-width: {{ maxWidth }}px; max-height: {{ maxHeight }}px">
+  <figure class="image-wrapper" style="padding-bottom: {{ aspectRatioString }}">
+    <picture>
+      {% if craft.imagerx.serverSupportsWebP() %}
+        <source data-sizes="auto" data-srcset="{{ craft.imagerx.srcset(transformedWebpImages) }}" type="image/webp">
+      {% endif %}
+
+      <img
+        class="responsive-image__image lazyload is-lazyloaded {{ imageClasses }}"
+        data-srcset="{{ craft.imagerx.srcset(transformedImages) }}"
+        data-sizes="auto"
+        alt="{{ image.assetAltText ?? '' }}"
+      >
+    </picture>
+  </figure>
+  {# /.responsive-image #}
+</div>
+{# /.responsive-image-wrapper #}
+
+<noscript>
+  <img src="{{ transformedImages|first.url }}" alt="{{ image.assetAltText ?? '' }}">
+</noscript>

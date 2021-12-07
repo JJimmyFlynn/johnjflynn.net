@@ -1,5 +1,5 @@
 fieldLayouts:
-  0c947217-149c-4f93-bbaa-6bab97d4ba84:
+  2525f6a6-df6d-4af1-9eb2-ce9526778087:
     tabs:
       -
         elements:
@@ -23,33 +23,25 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
           -
-            fieldUid: b135dc5d-315d-430a-a85f-7d8d9a6e0e75 # Alt Text
-            instructions: null
-            label: null
-            required: false
+            fieldUid: 4a9bd924-5286-41f7-a746-63a7cdb4c320 # Blog Content
+            instructions: ''
+            label: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: portfolioImages
-hasUrls: true
-name: 'Portfolio Images'
-settings:
-  cdnUrlPattern: ''
-  customSubfolder: ''
-  makeUploadsPublic: true
-  optimisePrefix: ''
-  optimiseUrlPattern: ''
-  projectSlug: ''
-  securityKey: ''
+handle: default
+hasTitleField: true
+name: Default
+section: ad72cd36-126a-4681-ac7b-8bf45e5da129 # Case Studies
 sortOrder: 1
+titleFormat: null
 titleTranslationKeyFormat: null
-titleTranslationMethod: null
-type: servd\AssetStorage\Volume
-url: 'https://cdn2.assets-servd.host/'
+titleTranslationMethod: site

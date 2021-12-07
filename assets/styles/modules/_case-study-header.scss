@@ -1,0 +1,20 @@
+.m-case-study-header {
+  background-color: $color-teal;
+  text-align: center;
+  color: white;
+  padding: clamp-sizes(4, 14) 0;
+
+  h2 {
+    margin: 0;
+    font-size: clamp-sizes(2.8, 7.2);
+  }
+
+  &__sub {
+    margin-top: $gutter;
+
+    b {
+      text-decoration: underline;
+      text-decoration-color: $color-red;
+    }
+  }
+}

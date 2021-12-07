@@ -1,0 +1,20 @@
+{% extends '_layouts/base' %}
+
+{% block content %}
+  <article>
+    <header class="m-case-study-header">
+      <div class="container">
+        <h2>Metro Credit Union</h2>
+        <p class="m-case-study-header__sub"><b>Responsibilities:</b> Front-end development, pattern library build, Craft CMS Twig development</p>
+      </div>
+    </header>
+    <div class="container">
+      {% for block in entry.blogContent.all %}
+        {% include '_blocks/' ~ block.type with {
+          block: block
+        } %}
+      {% endfor %}
+    </div>
+  </article>
+  {% include '_modules/contact' %}
+{% endblock %}

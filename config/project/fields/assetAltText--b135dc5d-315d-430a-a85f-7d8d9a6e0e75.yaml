@@ -1,0 +1,19 @@
+columnSuffix: bavgkucl
+contentColumnType: text
+fieldGroup: 784cbcd1-d02f-4aab-a82b-13bcd02a4d0b
+handle: assetAltText
+instructions: ''
+name: 'Alt Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

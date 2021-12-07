@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: caseStudies
+name: 'Case Studies'
+propagationMethod: all
+siteSettings:
+  3af667cd-f79e-4ed4-b209-421713d485f6: # JohnJFlynn
+    enabledByDefault: true
+    hasUrls: true
+    template: case-studies/_entry
+    uriFormat: 'case-studies/{slug}'
+structure:
+  maxLevels: 1
+  uid: 830c831d-943b-4dab-8432-badf15983b15
+type: structure

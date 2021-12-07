@@ -1,0 +1,8 @@
+<section class="c-blog-section flow richtext">
+  {% if block.heading %}
+    <header>
+      <h2 class="c-blog-section__section-heading">{{ block.heading| typogrify }}</h2>
+    </header>
+  {% endif %}
+  {{ block.text| typogrify }}
+</section>
