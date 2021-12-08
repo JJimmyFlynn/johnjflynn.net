@@ -1,4 +1,4 @@
-dateModified: 1638921172
+dateModified: 1638922509
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
@@ -19,6 +19,7 @@ meta:
     b6a18b8c-5ef1-4c3c-978a-9abdb0dd610d: Default # Default
     b135dc5d-315d-430a-a85f-7d8d9a6e0e75: 'Alt Text' # Alt Text
     c6456822-0dc1-4aa2-8d57-3acf5f2a07ef: 'Header Settings' # Header Settings
+    f2d9f8c5-f465-4a10-9270-efa665555932: Responsibilities # Responsibilities
 plugins:
   admin-bar:
     enabled: '1'
