@@ -1,6 +1,5 @@
 
-const workSliderSelect = document.querySelector('[data-work-slider-select]')
-const workSliderSelectTabs = workSliderSelect.querySelectorAll('[data-tab-select-tab]')
+const workSliderSelectTabs = document.querySelectorAll('[data-tab-select-tab]')
 
 // FLIP function to tab decorations
 const flipTabs = (firstEl, lastEl) => {
