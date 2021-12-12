@@ -4,6 +4,8 @@
 .c-tab-select {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: $gutter;
   padding: $gutter 0;
 }
 
@@ -13,10 +15,10 @@
 .c-tab-select__tab {
   @include strip-button;
   position: relative;
-  margin-right: $gutter;
   border-bottom: 2px solid transparent;
   cursor: pointer;
   transition: border-color 0.2s ease-out;
+  color: inherit;
 
   @include breakpoint($small--up) {
     margin-right: $gutter * 2;

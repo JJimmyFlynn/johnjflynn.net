@@ -8,7 +8,6 @@
 .c-work-item {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
-  grid-gap: $gutter--large;
   background-color: white;
   box-shadow: 0.3rem 0.6rem 1rem rgba(black, 0.04);
   border-radius: 0.4rem;
@@ -19,7 +18,7 @@
 }
 
 .c-work-item__content-block {
-  padding: $gutter--large $gutter--large $gutter--large 0;
+  padding: $gutter--large;
 }
 
 .c-work-item__image-block img {
