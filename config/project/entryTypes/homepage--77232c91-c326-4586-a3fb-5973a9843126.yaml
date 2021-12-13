@@ -133,6 +133,19 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 66354ef9-cb91-42db-9351-02e34fad4ca3 # Recent Work
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Recent Work'
+        sortOrder: 5
+      -
+        elements:
+          -
             fieldUid: 90d286fe-a8e3-40f3-b973-3c8185e0c821
             instructions: null
             label: null
@@ -142,7 +155,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: 'Work Showcase'
-        sortOrder: 5
+        sortOrder: 6
       -
         elements:
           -
@@ -155,7 +168,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: SEO
-        sortOrder: 6
+        sortOrder: 7
 handle: homepage
 hasTitleField: false
 name: Homepage

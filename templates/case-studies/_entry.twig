@@ -1,3 +1,9 @@
+{% do craft.app.elements.eagerLoadElements(
+  className(entry),
+  [entry],
+  ["images", "blogContent.media:images"]
+) %}
+
 {% extends '_layouts/base' %}
 
 {% block content %}
@@ -9,7 +15,7 @@
       </div>
     </header>
     <div class="container">
-      {% for block in entry.blogContent.all %}
+      {% for block in entry.blogContent %}
         {% include '_blocks/' ~ block.type with {
           block: block
         } %}

@@ -38,7 +38,7 @@
       >
 
         {# Ourput a slide for each entry in a portfolio category #}
-        {% for slide in craft.entries().section('portfolio').relatedTo(currentCategory).with(['image']).all() | reverse %}
+        {% for slide in craft.entries().section('portfolio').relatedTo(currentCategory).with(['image', 'caseStudyLink']).all() | reverse %}
           <div class="c-work-item">
             <div class="c-work-item__block c-work-item__image-block ">
 
@@ -53,7 +53,7 @@
               </div>
               {# /.c-slider__copy #}
 
-              {% set caseStudy = slide.caseStudyLink.one %}
+              {% set caseStudy = slide.caseStudyLink|first %}
               {% if caseStudy|length %}
                 <div class="c-work-item__link">
                   <a class="c-styled-link" href="{{ caseStudy.url }}">Read Details</a>

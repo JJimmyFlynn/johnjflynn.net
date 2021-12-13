@@ -1,0 +1,22 @@
+{# ------------------------------------------------------------------------------
+  Recent Work
+  Location(s): Homepage
+
+  Parameters:
+    - Recent Work {entry}
+
+
+------------------------------------------------------------------------------ #}
+<section class="m-recent-work c-index-section">
+  <div class="container">
+    <h2 class="section-heading">Recent Work</h2>
+    {% include '_partials/responsive-image' with {
+      image: recentWork.caseStudyImage|first
+    } %}
+    <h3 class="m-recent-work__heading">{{ recentWork.title }}</h3>
+    <div class="m-recent-work__excerpt">
+      {{ recentWork.caseStudyExcerpt }}
+    </div>
+    <a href="{{ recentWork.url }}" class="m-recent-work__cta c-styled-link">Read Details</a>
+  </div>
+</section>

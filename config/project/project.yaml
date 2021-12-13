@@ -1,11 +1,13 @@
-dateModified: 1638922743
+dateModified: 1639356504
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0a6cd492-5ea0-4783-ba58-b0ea1cd685e3: 'Case Study Image' # Case Study Image
     2ff5cab0-a543-45b8-b411-bcdbd77a544e: Portfolio # Portfolio
+    3a66485e-ef06-4d57-bf31-67fac8147202: 'Case Study Excerpt' # Case Study Excerpt
     3af667cd-f79e-4ed4-b209-421713d485f6: JohnJFlynn # JohnJFlynn
     3ecb3ea5-33e8-4591-8b88-55143d685317: Text # Text
     3f46a0a7-5ad4-492b-b4b7-bdde50823f77: 'Case Study Link' # Case Study Link
@@ -15,6 +17,8 @@ meta:
     53b1357b-f1f4-4f29-be51-cff0916f1587: Images # Images
     96aae4a6-7ecf-4c62-bd48-416cebc9c2b9: 'Portfolio Images' # Portfolio Images
     351b2d7f-eb97-4608-939d-632858c0c4be: Heading # Heading
+    66354ef9-cb91-42db-9351-02e34fad4ca3: 'Recent Work' # Recent Work
+    77232c91-c326-4586-a3fb-5973a9843126: Homepage # Homepage
     ad72cd36-126a-4681-ac7b-8bf45e5da129: 'Case Studies' # Case Studies
     b6a18b8c-5ef1-4c3c-978a-9abdb0dd610d: Default # Default
     b135dc5d-315d-430a-a85f-7d8d9a6e0e75: 'Alt Text' # Alt Text
@@ -43,6 +47,10 @@ plugins:
       enableMobileMenu: true
       widgets:
         admin-bar_edit-links: '1'
+  blitz-recommendations:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   copy:
     edition: standard
     enabled: true
