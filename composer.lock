@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c75d840beae4dacf63714b0159e9943a",
+    "content-hash": "4f73fcbc27467dd0d713d2ddccd9bb73",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -4665,6 +4665,94 @@
             "time": "2021-10-29T07:35:21+00:00"
         },
         {
+            "name": "symfony/var-dumper",
+            "version": "v6.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "7b701676fc64f9ef11f9b4870f16b48f66be4834"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7b701676fc64f9ef11f9b4870f16b48f66be4834",
+                "reference": "7b701676fc64f9ef11f9b4870f16b48f66be4834",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.3",
+                "symfony/console": "<5.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/uid": "^5.4|^6.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+            },
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v6.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-01-17T16:30:44+00:00"
+        },
+        {
             "name": "symfony/yaml",
             "version": "v5.4.0",
             "dist": {
@@ -4714,6 +4802,60 @@
             "time": "2021-11-28T15:25:38+00:00"
         },
         {
+            "name": "tightenco/collect",
+            "version": "v8.81.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tighten/collect.git",
+                "reference": "2b629c5095c89f3e96488f4bde8ac11642465200"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tighten/collect/zipball/2b629c5095c89f3e96488f4bde8ac11642465200",
+                "reference": "2b629c5095c89f3e96488f4bde8ac11642465200",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0",
+                "symfony/var-dumper": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "nesbot/carbon": "^2.23.0",
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Collect/Support/helpers.php",
+                    "src/Collect/Support/alias.php"
+                ],
+                "psr-4": {
+                    "Tightenco\\Collect\\": "src/Collect"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Collect - Illuminate Collections as a separate package.",
+            "keywords": [
+                "collection",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/tighten/collect/issues",
+                "source": "https://github.com/tighten/collect/tree/v8.81.0"
+            },
+            "time": "2022-01-25T22:55:34+00:00"
+        },
+        {
             "name": "tinify/tinify",
             "version": "1.5.3",
             "dist": {
@@ -4758,6 +4900,62 @@
                 "tinypng"
             ],
             "time": "2021-09-29T11:48:17+00:00"
+        },
+        {
+            "name": "trendyminds/craft-palette",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendyminds/craft-palette.git",
+                "reference": "e850981c93f25227fab5bbfdba4cceb3fbdf3b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendyminds/craft-palette/zipball/e850981c93f25227fab5bbfdba4cceb3fbdf3b50",
+                "reference": "e850981c93f25227fab5bbfdba4cceb3fbdf3b50",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.5.0",
+                "tightenco/collect": "^8.81"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Palette",
+                "handle": "palette",
+                "class": "trendyminds\\palette\\Palette",
+                "changelogUrl": "https://raw.githubusercontent.com/trendyminds/craft-palette/main/CHANGELOG.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "trendyminds\\palette\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TrendyMinds",
+                    "homepage": "https://trendyminds.com"
+                }
+            ],
+            "description": "A command palette to easily jump to specific areas within Craft",
+            "keywords": [
+                "Craft",
+                "cmdk",
+                "craft cms",
+                "craft plugin",
+                "palette",
+                "spotlight"
+            ],
+            "support": {
+                "docs": "https://github.com/trendyminds/craft-palette/blob/master/README.md",
+                "issues": "https://github.com/trendyminds/craft-palette/issues?state=open",
+                "source": "https://github.com/trendyminds/craft-palette"
+            },
+            "time": "2022-02-04T03:20:57+00:00"
         },
         {
             "name": "true/punycode",
@@ -5824,7 +6022,72 @@
             "time": "2018-09-23T22:00:47+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "nystudio107/craft-autocomplete",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-autocomplete.git",
+                "reference": "147b6efe72107da6126af219dc3fdb8f657c86d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-autocomplete/zipball/147b6efe72107da6126af219dc3fdb8f657c86d3",
+                "reference": "147b6efe72107da6126af219dc3fdb8f657c86d3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "nystudio107\\autocomplete\\Autocomplete"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\autocomplete\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com"
+                },
+                {
+                    "name": "PutYourLightsOn",
+                    "homepage": "https://putyourlightson.com"
+                }
+            ],
+            "description": "Provides Twig template IDE autocomplete of Craft CMS & plugin variables",
+            "keywords": [
+                "Craft",
+                "auto",
+                "autocomplete",
+                "cms",
+                "complete",
+                "craftcms",
+                "symfony",
+                "twig"
+            ],
+            "support": {
+                "docs": "https://github.com/nystudio107/craft-autocomplete/blob/master/README.md",
+                "issues": "https://github.com/nystudio107/craft-autocomplete/issues",
+                "source": "https://github.com/nystudio107/craft-autocomplete/tree/1.0.9"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/khalwat",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-23T12:30:25+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

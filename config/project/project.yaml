@@ -1,4 +1,4 @@
-dateModified: 1639356504
+dateModified: 1644012237
 email:
   fromEmail: JJimmyFlynn@gmail.com
   fromName: JohnJFlynn
@@ -60,6 +60,10 @@ plugins:
     enabled: true
     licenseKey: 6J1KK04D6TU3GX6G8XNUICJ8
     schemaVersion: 3.0.0
+  palette:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     enabled: '1'
     licenseKey: null
